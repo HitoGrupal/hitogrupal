@@ -1,0 +1,95 @@
+[{
+		"empresa": "Francis S.A.",
+		"info_personal": {
+			"nombre":"Jose",
+			"apellidos":"Martinez Ferreiro",
+			"telefono":675145789,
+			"dni":"49596741x",
+	
+		},
+		"id_empleado":"4735",
+		"departamento":"Área de desarrollo y nuevas tecnologías",
+		"Lengajes_manejados":["PHP","JavaScript","Pyton","Java"],
+		"sueldo":1700,
+		"contrato":{
+			"tipo_contrato":"Indefinido",
+			"horas_semanales":40,
+			"turno":"Mañana",
+		},
+	},
+	{
+		"empresa": "Computer Tecnology",
+		"info_personal": {
+			"nombre":"Aday",
+			"apellidos":"Sanchez Mendez",
+			"telefono":"655489712",
+			"dni":"56874850a",
+	
+		},
+		"id_empleado":"1545",
+		"departamento":"Área de desarrollo y creacion de aplicaciones moviles",
+		"Lengajes_manejados":["Java","C","C++","C#","Pyton"],
+		"sueldo":5950,
+		"contrato":{
+			"tipo_contrato":"Indefinido",
+			"horas_semanales":40,
+			"turno":"Mañana",
+		},
+	},
+	{
+		"empresa": "CISET",
+		"info_personal": {
+			"nombre":"Julio",
+			"apellidos":"Martinez Gutierrez",
+			"telefono":"698459712",
+			"dni":"12457896r",
+		
+		},
+		"id_empleado":"4875",
+		"departamento":"Recursos Humanos",
+		"Lengajes_manejados":["Ninguno"],
+		"sueldo":2300,
+		"contrato":{
+			"tipo_contrato":"temporal",
+			"horas_semanales":35,
+			"turno":"Partido",
+		},
+	},
+	{
+		"empresa": "NalCOM",
+		"info_personal": {
+			"nombre":"Ana Maria",
+			"apellidos":"Nuñez Belrado",
+			"telefono":"689742358",
+			"dni":"46859740u",
+		
+		},
+		"id_empleado":"235",
+		"departamento":"Área de negocio y aplicaciones empresariales",
+		"Lengajes_manejados":["Java","Pyton","JavaScript","C","Swift"],
+		"sueldo":3200,
+		"contrato":{
+			"tipo_contrato":"Temporal",
+			"horas_semanales":30,
+			"turno":"Tarde",
+		},
+	},
+	{
+		"empresa": "Ecocomputer",
+		"info_personal": {
+			"nombre":"Julio Cesar",
+			"apellidos":"Perico Maldriva",
+			"telefono":"685478951",
+			"dni":"68741235y",		
+		},
+		"id_empleado":"34",
+		"departamento":"Atencion al cliente",
+		"Lengajes_manejados":["PHP","JavaScript","Java"],
+		"sueldo":1500,
+		"contrato":{
+			"tipo_contrato":"Temporal",
+			"horas_semanales":40,
+			"turno":"Noche",
+		},
+	},
+]
