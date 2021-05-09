@@ -1,3 +1,107 @@
-body{
-	background-color: blue;
+header{
+	grid-area: cabecera;
+	background-image: url("../recursos_pablom/imagenespablom/fondo.jpg");
+	color: white;
+	font-size: 40px;
+}
+
+nav{
+	grid-area: menu;
+}
+
+section{
+	grid-area: contenido;
+}
+
+aside{
+	grid-area: banner;
+}
+
+#videos{
+	grid-area: banner2;
+}
+
+footer{
+	grid-area: pie;
+}
+
+main{
+	display: grid;
+	grid-template-areas: 
+	'cabecera cabecera cabecera'
+	'banner2 menu banner'
+	'banner2 contenido banner'
+	'pie pie pie';
+	grid-gap: 12px;
+	background-color: #336DFF;
+	padding: 20px;
+}
+
+main > *{
+	background-color: #33FF69;
+	text-align: center;
+	padding: 20px;
+}
+
+@media screen and (max-width: 1000px){
+	main{
+		display: grid;
+		grid-template-areas: 
+		'cabecera cabecera cabecera'
+		'menu menu menu'
+		'contenido contenido contenido'
+		'banner banner banner'
+		'banner2 banner2 banner2'
+		'pie pie pie';
+		grid-gap: 12px;
+		background-color: #336DFF;
+		padding: 12px;
+	}
+}
+
+@media print{
+	main{
+		display: grid;
+		grid-template-areas: 
+		'cabecera cabecera cabecera'
+		'banner2 menu banner'
+		'banner2 contenido banner'
+		'pie pie pie';
+		grid-gap: 12px;
+		background-color: #336DFF;
+		padding: 12px;
+	}
+}
+
+.grid-container{
+	display: grid;
+  	grid-template-columns: auto auto;
+}
+
+img{
+	width: 350px;
+	height: 200px;
+}
+
+ul{
+	display: flex;
+	flex-direction: column;
+  	align-items: center;
+}
+
+.botones{
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	font-family:Arial;
+	font-size:15px;
+	padding:7px 37px;
+	text-decoration:none;
+	margin: 20px;
+}
+
+.botones:hover {
+	background-color:#46619c;
+	color: red;
 }
