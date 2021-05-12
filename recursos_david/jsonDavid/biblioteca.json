@@ -4,37 +4,39 @@
 			"nombre":"Jose",
 			"apellidos":"Martinez Ferreiro",
 			"telefono":675145789,
-			"dni":"49596741x",
+			"dni":"49596741x"
 	
 		},
 		"id_empleado":"4735",
 		"departamento":"Área de desarrollo y nuevas tecnologías",
-		"Lengajes_manejados":["PHP","JavaScript","Pyton","Java"],
+		"Lenguajes_manejados":["PHP"," JavaScript"," Pyton"," Java"],
 		"sueldo":1700,
 		"contrato":{
 			"tipo_contrato":"Indefinido",
 			"horas_semanales":40,
-			"turno":"Mañana",
-		},
+			"turno":"Mañana"
+		}
 	},
+
+
 	{
 		"empresa": "Computer Tecnology",
 		"info_personal": {
 			"nombre":"Aday",
 			"apellidos":"Sanchez Mendez",
 			"telefono":"655489712",
-			"dni":"56874850a",
+			"dni":"56874850a"
 	
 		},
 		"id_empleado":"1545",
 		"departamento":"Área de desarrollo y creacion de aplicaciones moviles",
-		"Lengajes_manejados":["Java","C","C++","C#","Pyton"],
+		"Lenguajes_manejados":["Java"," C" ," C++"," C#"," Pyton"],
 		"sueldo":5950,
 		"contrato":{
 			"tipo_contrato":"Indefinido",
 			"horas_semanales":40,
-			"turno":"Mañana",
-		},
+			"turno":"Mañana"
+		}
 	},
 	{
 		"empresa": "CISET",
@@ -42,18 +44,18 @@
 			"nombre":"Julio",
 			"apellidos":"Martinez Gutierrez",
 			"telefono":"698459712",
-			"dni":"12457896r",
+			"dni":"12457896r"
 		
 		},
 		"id_empleado":"4875",
 		"departamento":"Recursos Humanos",
-		"Lengajes_manejados":["Ninguno"],
+		"Lenguajes_manejados":["Ninguno"],
 		"sueldo":2300,
 		"contrato":{
 			"tipo_contrato":"temporal",
 			"horas_semanales":35,
-			"turno":"Partido",
-		},
+			"turno":"Partido"
+		}
 	},
 	{
 		"empresa": "NalCOM",
@@ -61,18 +63,18 @@
 			"nombre":"Ana Maria",
 			"apellidos":"Nuñez Belrado",
 			"telefono":"689742358",
-			"dni":"46859740u",
+			"dni":"46859740u"
 		
 		},
 		"id_empleado":"235",
 		"departamento":"Área de negocio y aplicaciones empresariales",
-		"Lengajes_manejados":["Java","Pyton","JavaScript","C","Swift"],
+		"Lenguajes_manejados":["Java"," Pyton"," JavaScript"," C"," Swift"],
 		"sueldo":3200,
 		"contrato":{
 			"tipo_contrato":"Temporal",
 			"horas_semanales":30,
-			"turno":"Tarde",
-		},
+			"turno":"Tarde"
+		}
 	},
 	{
 		"empresa": "Ecocomputer",
@@ -80,16 +82,88 @@
 			"nombre":"Julio Cesar",
 			"apellidos":"Perico Maldriva",
 			"telefono":"685478951",
-			"dni":"68741235y",		
+			"dni":"68741235y"	
 		},
 		"id_empleado":"34",
 		"departamento":"Atencion al cliente",
-		"Lengajes_manejados":["PHP","JavaScript","Java"],
+		"Lenguajes_manejados":["PHP"," JavaScript"," Java"],
 		"sueldo":1500,
 		"contrato":{
 			"tipo_contrato":"Temporal",
 			"horas_semanales":40,
-			"turno":"Noche",
-		},
+			"turno":"Noche"
+		}
 	},
+	{
+		"empresa": "TrustGaming",
+		"info_personal": {
+			"nombre":"Antonio",
+			"apellidos":"Garcia Rodriguez",
+			"telefono":"654987321",
+			"dni":"78945612u"		
+		},
+		"id_empleado":"845",
+		"departamento":"Atencion al cliente",
+		"Lenguajes_manejados":["Pyton"," Java"],
+		"sueldo":1900,
+		"contrato":{
+			"tipo_contrato":"Indefinido",
+			"horas_semanales":30,
+			"turno":"Mañana"
+		}
+	},
+	{
+		"empresa": "PetroPhone",
+		"info_personal": {
+			"nombre":"Xavier",
+			"apellidos":"Perez Gomez",
+			"telefono":"621457389",
+			"dni":"12457896i"		
+		},
+		"id_empleado":"605",
+		"departamento":"Atencion al cliente",
+		"Lenguajes_manejados":["JavaScript"," TypeScript"],
+		"sueldo":2600,
+		"contrato":{
+			"tipo_contrato":"indefinido",
+			"horas_semanales":40,
+			"turno":"Tarde"
+		}
+	},
+	{
+		"empresa": "Silvi´s",
+		"info_personal": {
+			"nombre":"Silvia",
+			"apellidos":"Mendez Lopez",
+			"telefono":"657894213",
+			"dni":"85469217s"		
+		},
+		"id_empleado":"1",
+		"departamento":"Atencion al cliente",
+		"Lenguajes_manejados":["PHP"," JavaScript"," Java"," Pyton"," TypeScript"],
+		"sueldo":8000,
+		"contrato":{
+			"tipo_contrato":"indefinido",
+			"horas_semanales":20,
+			"turno":"Mañana"
+		}
+	},
+	{
+		"empresa": "LapisTecno",
+		"info_personal": {
+			"nombre":"Felipe",
+			"apellidos":"El hermoso Ruiz",
+			"telefono":"687222156",
+			"dni":"32556872u"		
+		},
+		"id_empleado":"450",
+		"departamento":"Atencion al cliente",
+		"Lenguajes_manejados":["Java"],
+		"sueldo":1200,
+		"contrato":{
+			"tipo_contrato":"Temporal",
+			"horas_semanales":40,
+			"turno":"Partido"
+		}
+	}
 ]
