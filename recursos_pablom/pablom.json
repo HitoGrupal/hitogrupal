@@ -1,8 +1,10 @@
 [{
-	"marca": "Apple",
-	"modelo": "Iphone 12",
-	"sistema_operativo": "IOS",
-	"version": "IOS 14",
+	"informacion": {
+		"marca": "Apple",
+		"modelo": "Iphone 12",
+		"sistema_operativo": "IOS",
+		"version": "IOS 14"
+	},
 	"especificaciones": {
 		"procesador": "Procesador: A14 Bionic",
 		"memoria_ram": "Memoria Ram: 6 GB",
@@ -14,14 +16,18 @@
 		"carga_inlambrica": "Carga Inalámbrica: 20 W",
 		"carga_inversa": "Carga Inversa: 10 W"
 	},
-	"versiones": ["128/6 GB", "256/6 GB", "512/6 GB"],
-	"precios": ["959€", "1059€", "1159€"],
+	"versionesyprecios": {
+		"versiones": ["128/6 GB", "256/6 GB", "512/6 GB"],
+		"precios": ["959€", "1059€", "1159€"]
+	},
 	"imagen": " "
 }, {
-	"marca": "Samsung",
-	"modelo": "Samsung S21 Ultra",
-	"sistema_operativo": "Android",
-	"version": "Android 11",
+	"informacion": {
+		"marca": "Samsung",
+		"modelo": "S21 Ultra",
+		"sistema_operativo": "Android",
+		"version": "Android 11"
+	},
 	"especificaciones": {
 		"procesador": "Procesador: Exynos 2100",
 		"memoria_ram": "Memoria Ram: 8 GB",
@@ -33,14 +39,18 @@
 		"carga_inlambrica": "Carga Inalámbrica: 25 W",
 		"carga_inversa": "Carga Inversa: 15 W"
 	},
-	"versiones": ["128/8 GB", "256/8 GB", "512/12 GB"],
-	"precios": ["1000€", "1100€", "1250€"],
+	"versionesyprecios": {
+		"versiones": ["128/8 GB", "256/12 GB", "512/12 GB"],
+		"precios": ["1000€", "1159€", "1359€"]
+	},
 	"imagen": " "
 }, {
-	"marca": "Xiaomi",
-	"modelo": "MI 11",
-	"sistema_operativo": "Android",
-	"version": "Android 11",
+	"informacion": {
+		"marca": "Xiaomi",
+		"modelo": "MI 11",
+		"sistema_operativo": "Android",
+		"version": "Android 11"
+	},
 	"especificaciones": {
 		"procesador": "Procesador: Snapdragon 888",
 		"memoria_ram": "Memoria Ram: 8 GB",
@@ -52,14 +62,18 @@
 		"carga_inlambrica": "Carga Inalámbrica: 65 W",
 		"carga_inversa": "Carga Inversa: 20 W"
 	},
-	"versiones": ["128/8 GB", "256/8 GB", "512/12 GB"],
-	"precios": ["750€", "850€", "950€"],
+	"versionesyprecios": {
+		"versiones": ["128/8 GB", "256/8 GB", "512/12 GB"],
+		"precios": ["750€", "850€", "950€"]
+	},
 	"imagen": " "
 }, {
-	"marca": "OnePlus",
-	"modelo": "OnePlus 9 Pro",
-	"sistema_operativo": "Android",
-	"version": "Android 11",
+	"informacion": {
+		"marca": "OnePlus",
+		"modelo": "OnePlus 9 Pro",
+		"sistema_operativo": "Android",
+		"version": "Android 11"
+	},
 	"especificaciones": {
 		"procesador": "Procesador: Snapdragon 888",
 		"memoria_ram": "Memoria Ram: 8 GB",
@@ -71,33 +85,18 @@
 		"carga_inlambrica": "Carga Inalámbrica: 65 W",
 		"carga_inversa": "Carga Inversa: 15 W"
 	},
-	"versiones": ["256/8 GB", "256/12 GB", "512/12 GB"],
-	"precios": ["950€", "1100€", "1300€"],
+	"versionesyprecios": {
+		"versiones": ["128/6 GB", "128/8 GB", "256/12 GB"],
+		"precios": ["920€", "1000€", "1100€"]
+	},
 	"imagen": " "
 }, {
-	"marca": "Apple",
-	"modelo": "Iphone X",
-	"sistema_operativo": "IOS",
-	"version": "IOS 12",
-	"especificaciones": {
-		"procesador": "Procesador: A11 Bionic",
-		"memoria_ram": "Memoria Ram: 4 GB",
-		"almacenamiento": "Almacenamiento: 64 GB",
-		"bateria": "Bateria: 3.200 mAH"
+	"informacion": {
+		"marca": "OPPO",
+		"modelo": "Find X3 Pro",
+		"sistema_operativo": "Android",
+		"version": "Android 11"
 	},
-	"tipos_de_carga": {
-		"carga_rapida": "Carga Rápida: 20 W",
-		"carga_inlambrica": "Carga Inalámbrica: 10 W",
-		"carga_inversa": "Carga Inversa: 5 W"
-	},
-	"versiones": ["64/4 GB", "128/4 GB", "256/6 GB"],
-	"precios": ["550€", "600€", "700€"],
-	"imagen": " "
-}, {
-	"marca": "Oppo",
-	"modelo": "Find X3 Pro",
-	"sistema_operativo": "Android",
-	"version": "Android 11",
 	"especificaciones": {
 		"procesador": "Snapdragon 888",
 		"memoria_ram": "Memoria Ram: 12 GB",
@@ -109,14 +108,18 @@
 		"carga_inlambrica": "Carga Inalámbrica: 60 W",
 		"carga_inversa": "Carga Inversa: 20 W"
 	},
-	"versiones": ["256/12 GB", "512/12 GB", "1 TB/16 GB"],
-	"precios": ["850€", "1000€", "1800€"],
+	"versionesyprecios": {
+		"versiones": ["128/8 GB", "256/12 GB", "512/12 GB"],
+		"precios": ["1100€", "1200€", "1250€"]
+	},
 	"imagen": " "
 }, {
-	"marca": "Apple",
-	"modelo": "Iphone SE 2",
-	"sistema_operativo": "IOS",
-	"version": "IOS 14",
+	"informacion": {
+		"marca": "Apple",
+		"modelo": "Iphone SE 2",
+		"sistema_operativo": "IOS",
+		"version": "IOS 14"
+	},
 	"especificaciones": {
 		"procesador": "A12 Bionic",
 		"memoria_ram": "Memoria Ram: 3 GB",
@@ -126,16 +129,20 @@
 	"tipos_de_carga": {
 		"carga_rapida": "Carga Rápida: 20 W",
 		"carga_inlambrica": "Carga Inalámbrica: No Incorpora",
-		"carga_inversa": "Carga Inversa: No Incorpora W"
+		"carga_inversa": "Carga Inversa: No Incorpora"
 	},
-	"versiones": ["64/3 GB", "128/3 GB", "256/4 GB"],
-	"precios": ["450€", "550€", "650€"],
+	"versionesyprecios": {
+		"versiones": ["64/3 GB", "256/3 GB", "256/4 GB"],
+		"precios": ["425€", "450€", "550€"]
+	},
 	"imagen": " "
 }, {
-	"marca": "Huawei",
-	"modelo": "P40 Pro",
-	"sistema_operativo": "HarmonyOS",
-	"version": "HarmonyOS 1.0",
+	"informacion": {
+		"marca": "Huawei",
+		"modelo": "P40 Pro",
+		"sistema_operativo": "HarmonyOS",
+		"version": "HarmonyOS 1.0"
+	},
 	"especificaciones": {
 		"procesador": "Kirin 990",
 		"memoria_ram": "Memoria Ram: 8 GB",
@@ -147,7 +154,55 @@
 		"carga_inlambrica": "Carga Inalámbrica: 60 W",
 		"carga_inversa": "Carga Inversa: 30 W"
 	},
-	"versiones": ["256/8 GB", "512/12 GB", "1 TB/16 GB"],
-	"precios": ["950€", "1300€", "1700€"],
+	"versionesyprecios": {
+		"versiones": ["512/12 GB", "512/16 GB", "1TB/16 GB"],
+		"precios": ["1100€", "1300€", "1500€"]
+	},
+	"imagen": " "
+}, {
+	"informacion": {
+		"marca": "Apple",
+		"modelo": "Iphone Flip",
+		"sistema_operativo": "IOS",
+		"version": "IOS 14"
+	},
+	"especificaciones": {
+		"procesador": "Procesador: A14 Bionic",
+		"memoria_ram": "Memoria Ram: 8 GB",
+		"almacenamiento": "Almacenamiento: 128 GB",
+		"bateria": "Bateria: 3.500 mAH"
+	},
+	"tipos_de_carga": {
+		"carga_rapida": " Carga Rápida: 30 W",
+		"carga_inlambrica": "Carga Inalámbrica: 30 W",
+		"carga_inversa": "Carga Inversa: 20 W"
+	},
+	"versionesyprecios": {
+		"versiones": ["128/8 GB", "256/8 GB", "512/8 GB"],
+		"precios": ["1750€", "1900€", "2100€"]
+	},
+	"imagen": " "
+}, {
+	"informacion": {
+		"marca": "Samsung",
+		"modelo": "Galaxy Flod Z 2",
+		"sistema_operativo": "Android",
+		"version": "Android 11"
+	},
+	"especificaciones": {
+		"procesador": "Procesador: Exynos 2100",
+		"memoria_ram": "Memoria Ram: 8 GB",
+		"almacenamiento": "Almacenamiento: 128 GB",
+		"bateria": "Bateria: 4.000 mAH"
+	},
+	"tipos_de_carga": {
+		"carga_rapida": "Carga Rápida: 25 W",
+		"carga_inlambrica": "Carga Inalámbrica: 25 W",
+		"carga_inversa": "Carga Inversa: 15 W"
+	},
+	"versionesyprecios": {
+		"versiones": ["128/8 GB", "256/12 GB", "512/12 GB"],
+		"precios": ["1800€", "2050€", "2300€"]
+	},
 	"imagen": " "
 }]

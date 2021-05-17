@@ -78,7 +78,7 @@ main > *{
   	grid-template-columns: auto auto;
 }
 
-img{
+.Doc1{
 	width: 350px;
 	height: 200px;
 }
@@ -104,4 +104,29 @@ ul{
 .botones:hover {
 	background-color:#46619c;
 	color: red;
+}
+
+table, th, td{
+	border: 2px solid blue;
+}
+
+th{
+	background-color: white;
+}
+
+td{
+	background-color: #70C21E;
+}
+
+td:hover{
+	background-color: aqua;
+}
+
+table{
+	margin: auto;
+}
+
+img{
+	width: 200px;
+	height: 230px;
 }

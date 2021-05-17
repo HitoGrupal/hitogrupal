@@ -5,18 +5,38 @@
 	<title>Mi Web</title>
 	<link rel="stylesheet" type="text/css" href="../css/pablom.css">
 </head>
-<body onload="loaddatos();">
+<body onload="loaddatos()">
 	<main>
 		<header>Dispositivos Tecnológicos</header>
 
 		<nav>
-			<a href="" class="botones">Página Principal</a>
-			<a href="recursos_pablom/marcas.xml" class="botones">Principales Marcas</a>
-			<a href="recursos_pablom/dispositivos.html" class="botones">Principales Dispositivos</a>
+			<a href="..//pablom.html" class="botones">Página Principal</a>
+			<a href="marcas.xml" class="botones">Principales Marcas</a>
+			<a href="dispositivos.html" class="botones">Principales Dispositivos</a>
 		</nav>
 
 		<section>
-			<p>Sección</p>
+			<h1 id="salida"></h1>
+			<h1>Listas De Dispositivos con sus Principales Características</h1>
+			<button id="primero" onclick="tabla();">Mostrar Todos los Dispositivos</button>
+			<select>
+				<option>Dispositivo No Plegable</option>
+				<option>Dispositivo Plegable</option>
+			</select>
+			<select id="select" onchange="modeloEspecifico()">
+				<option>Marca</option>
+				<option value="Apple">Apple</option>
+				<option value="Samsung">Samsung</option>
+				<option value="Xiaomi">Xiaomi</option>
+				<option value="OnePlus">OnePlus</option>
+				<option value="OPPO">OPPO</option>
+				<option value="Huawei">Huawei</option>
+			</select><br>
+
+
+
+			<table id="tabla1"></table>
+			<table id="tabla2"></table>
 		</section>
 
 		<aside>
@@ -30,7 +50,7 @@
 		<footer>
 			Web Realizada por Pablo Martín Sánchez-Seco
 		</footer>
-		<script type="text/javascript" src="js/pablom.js"></script>
+		<script type="text/javascript" src="../js/pablom.js"></script>
 	</main>
 </body>
 </html>
