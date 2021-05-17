@@ -85,26 +85,15 @@ function prueba(){
     				"<br>"+
     			obj[i].contrato.turno+'</li></ul></div>';
 
-    			let insertar = document.getElementsByClassName("grid-contenedor");
+    			let insertar = document.getElementsByClassName("item3");
     			insertar[0].innerHTML= lista;
 
 
     }
-    
 }
 
 
-function estilos(){
-	let hola;
-	let i;
-    
-    let textJson = ajax.responseText;
-    let lista= "";
-    let obj = JSON.parse(textJson);
-	for(i = 0; i<obj.length; i++){
-		
-	hola = document.getElementsByClassName("empresa")[i];
-	hola[i].innerText="prueba";
 
-	}
-}
+
+
+ 
