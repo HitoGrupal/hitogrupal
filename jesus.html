@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Hito1</title>
-	<link rel="stylesheet" type="text/css" href="css/jesus.css">
+  <meta charset="utf-8">
+  <script type="text/javascript" src="js/jesus.js"></script>
+  <title>Web Concesionario</title>
+  <link rel="stylesheet" type="text/css" href="css/jesus.css">
 </head>
-<body>
-
-<h1>HOLA MUNDO</h1>
-
+<body onload = "cargarCoches()">
+  <main>
+    <header><h1>EL CONCESIONARIO DE JESUS</h1></header>
+    <nav id="menu1">
+      <div>
+        <input type="button" value="Todos los coches" id="boton"
+          onclick="crearTabla(); cambiarFondo('Principal')">
+        <input type="button" value="Mercedes" id="boton"
+          onclick="filtrarTabla('Mercedes'); cambiarFondo('Mercedes')">
+        <input type="button" value="Audi" id="boton"
+          onclick="filtrarTabla('Audi'); cambiarFondo('Audi')">
+        <input type="button" value="Ferrari" id="boton"
+          onclick="filtrarTabla('Ferrari'); cambiarFondo('Ferrari')">
+        <input type="button" value="Lamborghini" id="boton"
+          onclick="filtrarTabla('Lamborghini'); cambiarFondo('Lamborghini')">
+        <input type="button" value="BMW" id="boton"
+          onclick="filtrarTabla('BMW'); cambiarFondo('BMW')">
+        <input type="button" value="Bugatti" id="boton"
+          onclick="filtrarTabla('Bugatti'); cambiarFondo('Bugatti')">
+      </div>
+    </nav>
+    <section>
+        <h1 id="salida"></h1>
+        <table id="demo"></table>
+    </section>
+    <aside>
+      <a href="https://www.adidas.es/"><img id="anuncio1" src="recursos_jesus/imagenes/anuncio1.png"></a>
+      <a href="https://www.cocacola.es/es/home/"><img id="anuncio2" src="recursos_jesus/imagenes/anuncio2.jpg"></a>
+      <a href="https://www.intel.es/content/www/es/es/homepage.html"><img id="anuncio3" src="recursos_jesus/imagenes/anuncio3.png"></a>
+    </aside>
+    <footer>
+      Página Realizada Por: Jesús Manzanero
+    </footer>
+  </main>
 </body>
 </html>
