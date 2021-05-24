@@ -1,0 +1,43 @@
+body{
+	background-image: url(imagenespablom/fondoxml.jpg);
+	background-repeat: no-repeat no-repeat;
+	background-size: 100% 100%;
+}
+
+h1{
+	padding-top: 150px;
+	text-align: center;
+	color: white;
+}
+table{
+	margin: auto;
+	position: center;
+}
+
+tr{
+	background-color: #FF9633;
+}
+
+th{
+	background-color: white;
+}
+
+tr:hover{
+	background-color: aqua;
+	font-size: 20px;
+}
+
+.botones{
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	font-family:Arial;
+	font-size:15px;
+	padding:7px 37px;
+	text-decoration:none;
+	margin: 20px;
+}
+
+
+

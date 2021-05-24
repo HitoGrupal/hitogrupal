@@ -3,7 +3,8 @@
 		"marca": "Apple",
 		"modelo": "Iphone 12",
 		"sistema_operativo": "IOS",
-		"version": "IOS 14"
+		"version": "IOS 14",
+		"tipo": "No Plegable"
 	},
 	"especificaciones": {
 		"procesador": "Procesador: A14 Bionic",
@@ -26,7 +27,8 @@
 		"marca": "Samsung",
 		"modelo": "S21 Ultra",
 		"sistema_operativo": "Android",
-		"version": "Android 11"
+		"version": "Android 11",
+		"tipo": "No Plegable"
 	},
 	"especificaciones": {
 		"procesador": "Procesador: Exynos 2100",
@@ -49,7 +51,8 @@
 		"marca": "Xiaomi",
 		"modelo": "MI 11",
 		"sistema_operativo": "Android",
-		"version": "Android 11"
+		"version": "Android 11",
+		"tipo": "No Plegable"
 	},
 	"especificaciones": {
 		"procesador": "Procesador: Snapdragon 888",
@@ -72,7 +75,8 @@
 		"marca": "OnePlus",
 		"modelo": "OnePlus 9 Pro",
 		"sistema_operativo": "Android",
-		"version": "Android 11"
+		"version": "Android 11",
+		"tipo": "No Plegable"
 	},
 	"especificaciones": {
 		"procesador": "Procesador: Snapdragon 888",
@@ -95,7 +99,8 @@
 		"marca": "OPPO",
 		"modelo": "Find X3 Pro",
 		"sistema_operativo": "Android",
-		"version": "Android 11"
+		"version": "Android 11",
+		"tipo": "No Plegable"
 	},
 	"especificaciones": {
 		"procesador": "Snapdragon 888",
@@ -118,7 +123,8 @@
 		"marca": "Apple",
 		"modelo": "Iphone SE 2",
 		"sistema_operativo": "IOS",
-		"version": "IOS 14"
+		"version": "IOS 14",
+		"tipo": "No Plegable"
 	},
 	"especificaciones": {
 		"procesador": "A12 Bionic",
@@ -141,7 +147,8 @@
 		"marca": "Huawei",
 		"modelo": "P40 Pro",
 		"sistema_operativo": "HarmonyOS",
-		"version": "HarmonyOS 1.0"
+		"version": "HarmonyOS 1.0",
+		"tipo": "No Plegable"
 	},
 	"especificaciones": {
 		"procesador": "Kirin 990",
@@ -164,7 +171,8 @@
 		"marca": "Apple",
 		"modelo": "Iphone Flip",
 		"sistema_operativo": "IOS",
-		"version": "IOS 14"
+		"version": "IOS 14",
+		"tipo": "Plegable"
 	},
 	"especificaciones": {
 		"procesador": "Procesador: A14 Bionic",
@@ -187,7 +195,8 @@
 		"marca": "Samsung",
 		"modelo": "Galaxy Flod Z 2",
 		"sistema_operativo": "Android",
-		"version": "Android 11"
+		"version": "Android 11",
+		"tipo": "Plegable"
 	},
 	"especificaciones": {
 		"procesador": "Procesador: Exynos 2100",
@@ -203,6 +212,102 @@
 	"versionesyprecios": {
 		"versiones": ["128/8 GB", "256/12 GB", "512/12 GB"],
 		"precios": ["1800€", "2050€", "2300€"]
+	},
+	"imagen": " "
+}, {
+	"informacion": {
+		"marca": "Xiaomi",
+		"modelo": "Mi Mix Fold",
+		"sistema_operativo": "Android",
+		"version": "Android 11",
+		"tipo": "Plegable"
+	},
+	"especificaciones": {
+		"procesador": "Procesador: Snapdragon 888",
+		"memoria_ram": "Memoria Ram: 12 GB",
+		"almacenamiento": "Almacenamiento: 128 GB",
+		"bateria": "Bateria: 4.000 mAH"
+	},
+	"tipos_de_carga": {
+		"carga_rapida": "Carga Rápida: 75 W",
+		"carga_inlambrica": "Carga Inalámbrica: 75 W",
+		"carga_inversa": "Carga Inversa: 30 W"
+	},
+	"versionesyprecios": {
+		"versiones": ["128/12 GB", "256/12 GB", "512/12 GB"],
+		"precios": ["1500€", "1800€", "2000€"]
+	},
+	"imagen": " "
+}, {
+	"informacion": {
+		"marca": "OnePlus",
+		"modelo": "OnePlus Fold",
+		"sistema_operativo": "Android",
+		"version": "Android 11",
+		"tipo": "Plegable"
+	},
+	"especificaciones": {
+		"procesador": "Procesador: Snapdragon 888",
+		"memoria_ram": "Memoria Ram: 12 GB",
+		"almacenamiento": "Almacenamiento: 128 GB",
+		"bateria": "Bateria: 4.300 mAH"
+	},
+	"tipos_de_carga": {
+		"carga_rapida": "Carga Rápida: 65 W",
+		"carga_inlambrica": "Carga Inalámbrica: 65 W",
+		"carga_inversa": "Carga Inversa: 30 W"
+	},
+	"versionesyprecios": {
+		"versiones": ["128/12 GB", "256/12 GB", "512/16 GB"],
+		"precios": ["1400€", "1700€", "2100€"]
+	},
+	"imagen": " "
+}, {
+	"informacion": {
+		"marca": "OPPO",
+		"modelo": "OPPO X",
+		"sistema_operativo": "Android",
+		"version": "Android 11",
+		"tipo": "Plegable"
+	},
+	"especificaciones": {
+		"procesador": "Procesador: Snapdragon 888",
+		"memoria_ram": "Memoria Ram: 12 GB",
+		"almacenamiento": "Almacenamiento: 128 GB",
+		"bateria": "Bateria: 5.000 mAH"
+	},
+	"tipos_de_carga": {
+		"carga_rapida": "Carga Rápida: 100 W",
+		"carga_inlambrica": "Carga Inalámbrica: 80 W",
+		"carga_inversa": "Carga Inversa: 50 W"
+	},
+	"versionesyprecios": {
+		"versiones": ["128/12 GB", "256/12 GB", "512/12 GB"],
+		"precios": ["2000€", "2200€", "2500€"]
+	},
+	"imagen": " "
+}, {
+	"informacion": {
+		"marca": "Huawei",
+		"modelo": "Mate X",
+		"sistema_operativo": "HarmonyOS",
+		"version": "HarmonyOS 1.0",
+		"tipo": "Plegable"
+	},
+	"especificaciones": {
+		"procesador": "Procesador: Kirim 1000",
+		"memoria_ram": "Memoria Ram: 12 GB",
+		"almacenamiento": "Almacenamiento: 128 GB",
+		"bateria": "Bateria: 4.500 mAH"
+	},
+	"tipos_de_carga": {
+		"carga_rapida": "Carga Rápida: 75 W",
+		"carga_inlambrica": "Carga Inalámbrica: 75 W",
+		"carga_inversa": "Carga Inversa: 30 W"
+	},
+	"versionesyprecios": {
+		"versiones": ["256/12 GB", "512/12 GB", "1TB/16 GB"],
+		"precios": ["1600€", "1800€", "2000€"]
 	},
 	"imagen": " "
 }]

@@ -17,7 +17,7 @@ aside{
 	grid-area: banner;
 }
 
-#videos{
+#banner2{
 	grid-area: banner2;
 }
 
@@ -55,7 +55,12 @@ main > *{
 		'pie pie pie';
 		grid-gap: 12px;
 		background-color: #336DFF;
-		padding: 12px;
+		padding: 10px;
+	}
+	.grid-banner{
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		padding: 10px;
 	}
 }
 
@@ -71,11 +76,22 @@ main > *{
 		background-color: #336DFF;
 		padding: 12px;
 	}
+	.grid-banner{
+		display: grid;
+		grid-template-columns: auto;
+		padding: 10px;
+	}
 }
 
 .grid-container{
 	display: grid;
   	grid-template-columns: auto auto;
+}
+
+.grid-banner{
+	display: grid;
+	grid-template-columns: auto;
+	padding: 10px;
 }
 
 .Doc1{
@@ -115,7 +131,7 @@ th{
 }
 
 td{
-	background-color: #70C21E;
+	background-color: orange;
 }
 
 td:hover{
@@ -129,4 +145,40 @@ table{
 img{
 	width: 200px;
 	height: 230px;
+}
+
+#banner2{
+	background-image: url("../recursos_pablom/imagenespablom/movil.gif");
+}
+
+#imagenNormal{
+	width: 600px;
+	height: 200px;
+	position: center;
+}
+
+#imagenNormal2{
+	width: 600px;
+	height: 200px;
+	position: center;
+}
+
+#imagenesBanner{
+	width: 50px;
+	height: 50px;
+}
+
+.Doc2{
+	width: 400px;
+	height: 200px;
+}
+
+#todos{
+	width: 700px;
+	height: 300px;
+}
+
+#foto_marcas{
+	width: 700px;
+	height: 500px;
 }

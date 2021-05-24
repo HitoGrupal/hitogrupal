@@ -11,18 +11,22 @@
 
 		<nav>
 			<a href="..//pablom.html" class="botones">Página Principal</a>
-			<a href="marcas.xml" class="botones">Principales Marcas</a>
+			<a href="pablom.xml" class="botones">Principales Marcas</a>
 			<a href="dispositivos.html" class="botones">Principales Dispositivos</a>
 		</nav>
 
-		<section>
+		<section onload="tabla()">
 			<h1 id="salida"></h1>
 			<h1>Listas De Dispositivos con sus Principales Características</h1>
+			
 			<button id="primero" onclick="tabla();">Mostrar Todos los Dispositivos</button>
-			<select>
-				<option>Dispositivo No Plegable</option>
-				<option>Dispositivo Plegable</option>
+			
+			<select id="select_plegable" onchange="movilesPlegables()"> 
+				<option>Marca el Tipo de Dispositivo:</option>
+				<option value="No Plegable">Dispositivos No Plegable</option>
+				<option value="Plegable">Dispositivos Plegable</option>
 			</select>
+			
 			<select id="select" onchange="modeloEspecifico()">
 				<option>Marca</option>
 				<option value="Apple">Apple</option>
@@ -32,19 +36,55 @@
 				<option value="OPPO">OPPO</option>
 				<option value="Huawei">Huawei</option>
 			</select><br>
-
-
-
-			<table id="tabla1"></table>
-			<table id="tabla2"></table>
+			&nbsp;
+			&nbsp;
+			&nbsp;
+			<table id="tabla1" onload="marcas()"></table><br>
+			<div class="grid-container">
+				<div>
+					<img class="Doc2" src="../recursos_pablom/imagenespablom/muchosmoviles.jpg">
+				</div>
+				<div>
+					<img class="Doc2" src="../recursos_pablom/imagenespablom/muchosmoviles2.jpg">
+				</div>
+			</div>
+			&nbsp;
+			&nbsp;
+			&nbsp;
+			<img id="todos" src="imagenespablom/todosmoviles.jpg">
+			&nbsp;
+			&nbsp;
+			&nbsp;
+			<p>	
+				*Al hacer click en el Precio, accedes a la Web de Compra del Dispositivo<br>
+				*Al hacer click en la Imagen del Dispositivo, accedes a la Review o Noticias de dicho Dispositivo<br>
+				*Los Precios que aparecen en la Web pueden variar respecto a la Realidad<br>
+				*Al Pulsar en los Iconos de la Derecha accedes a Canales con Información sobre los Últimos 
+				Dispositivos Electrónicos Presentados por las Principales Marcas como:<br>
+				<ul>
+					<Strong><li>Apple</li>
+					<li>Samsung</li>
+					<li>Xiaomi</li>
+					<li>OnePlus</li>
+					<li>OPPO</li>
+					<li>Huawei</li></Strong>
+				</ul>
+			</p>
+			&nbsp;
+			&nbsp;
+			&nbsp;
 		</section>
 
-		<aside>
-			<p>Banner</p>
+		<aside class="grid-banner">
+			<a href="https://www.instagram.com/accounts/login/"><img id="imagenesBanner" src="imagenespablom/instagram.jpg"></a>
+			<a href="https://www.youtube.com/user/andro4all"><img id="imagenesBanner" src="imagenespablom/youtube.jpg"></a>
+			<a href="https://twitter.com/TopesdGama?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img id="imagenesBanner" src="imagenespablom/twiter.jpg"></a>
+			<a href="https://es-es.facebook.com/topesdgama"><img id="imagenesBanner" src="imagenespablom/facebook.jpg"></a>
+			<a href="https://www.twitch.tv/tdglives"><img id="imagenesBanner" src="imagenespablom/twitch.jpg"></a>
 		</aside>
 
-		<div id="videos">
-			<p>Banner2</p>	
+		<div id="banner2">
+
 		</div>
 
 		<footer>

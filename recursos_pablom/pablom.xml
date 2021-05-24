@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pablom.xsl"?>
+<marcas>
+   	<tipo1>
+            <marca>
+                    <nombreMarca>Apple</nombreMarca>
+            </marca>
+            <año>
+                    <fundacion>1976</fundacion>
+            </año>
+            <fundador>
+                    <persona>Stive Jobs</persona>
+            </fundador>
+            <origen>
+                    <pais>California, EE.UU</pais>
+            </origen>
+            <modelo>
+                    <nombre>Iphone 12 Pro Max</nombre>
+            </modelo>
+            <foto>
+                    <imagen> </imagen>
+            </foto>
+
+   	</tipo1>
+    <tipo2>
+            <marca>
+                    <nombreMarca>Samsung</nombreMarca>
+            </marca>
+            <año>
+                    <fundacion>1938</fundacion>
+            </año>
+            <fundador>
+                    <persona>Lee Byung-chul</persona>
+            </fundador>
+            <origen>
+                    <pais>Corea Del Sur</pais>
+            </origen>
+            <modelo>
+                    <nombre>Samsung S21 Ultra</nombre>
+            </modelo>
+            <foto>
+                    <imagen> </imagen>
+            </foto>
+    </tipo2>
+    <tipo3>
+            <marca>
+                    <nombreMarca>Xiaomi</nombreMarca>
+            </marca>
+            <año>
+                    <fundacion>2010</fundacion>
+            </año>
+            <fundador>
+                    <persona>Lei Jun y Lin Bin</persona>
+            </fundador>
+            <origen>
+                    <pais>China</pais>
+            </origen>
+            <modelo>
+                    <nombre>Xiaomi Mi 11</nombre>
+            </modelo>
+            <foto>
+                    <imagen> </imagen>
+            </foto>
+    </tipo3>
+    <tipo4>
+            <marca>
+                    <nombreMarca>OnePlus</nombreMarca>
+            </marca>
+            <año>
+                    <fundacion>2013</fundacion>
+            </año>
+            <fundador>
+                    <persona>Pete Lau y Carl Pei</persona>
+            </fundador>
+            <origen>
+                    <pais>China</pais>
+            </origen>
+            <modelo>
+                    <nombre>OnePlus 9 Pro</nombre>
+            </modelo>
+            <foto>
+                    <imagen> </imagen>
+            </foto>
+    </tipo4>
+    <tipo5>
+            <marca>
+                    <nombreMarca>OPPO</nombreMarca>
+            </marca>
+            <año>
+                    <fundacion>2004</fundacion>
+            </año>
+            <fundador>
+                    <persona>BBK Electronics</persona>
+            </fundador>
+            <origen>
+                    <pais>China</pais>
+            </origen>
+            <modelo>
+                    <nombre>OPPO Find X3 Pro</nombre>
+            </modelo>
+            <foto>
+                    <imagen>Imagen1</imagen>
+            </foto>
+    </tipo5>
+    <tipo6>
+            <marca>
+                    <nombreMarca>Huawei</nombreMarca>
+            </marca>
+            <año>
+                    <fundacion>1987</fundacion>
+            </año>
+            <fundador>
+                    <persona>Ren Zhengfei</persona>
+            </fundador>
+            <origen>
+                    <pais>China</pais>
+            </origen>
+            <modelo>
+                    <nombre>Huawei P40 Pro</nombre>
+            </modelo>
+            <foto>
+                    <imagen> </imagen>
+            </foto>
+    </tipo6>
+</marcas>
