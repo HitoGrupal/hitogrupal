@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="material.xsl"?>
+
+<listaMaterial>
+    <articulo>
+        <nombre>Cuerda Beal Karma 9.8 mm x 60 m</nombre>
+        <descripcion>Cuerda dinámica de 9.8mm de diámetro para escalada deportiva</descripcion>
+        <imagen>../img/cuerda.jpg</imagen>        
+    </articulo>
+    <articulo>
+        <nombre>Mochila Osprey Rook 50L</nombre>
+        <descripcion>Mochila para montañismo de 50 litros de capacidad</descripcion>
+        <imagen>../img/mochila.jpg</imagen>
+    </articulo>
+    <articulo>
+        <nombre>Pack esquís Salomon E S/Max 8 + M10 Gw L80</nombre>
+        <descripcion>Esquis de la marca Salomon para la práctica del esquí alpino</descripcion>
+        <imagen>../img/esquis.jpg</imagen>        
+    </articulo>
+    
+</listaMaterial>
