@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+
+<clientes>
+	<cliente>
+
+		<nombre>Ernesto</nombre>
+		<apellidos>Benito García</apellidos>
+		<edad>27</edad>
+		<ciudad>Madrid</ciudad>
+	</cliente>
+
+	<cliente>
+		
+		<nombre>Marta</nombre>
+		<apellidos>Galán Valverde</apellidos>
+		<edad>24</edad>
+		<ciudad>Toledo</ciudad>				
+	</cliente>
+	<cliente>
+		
+		<nombre>Ana</nombre>
+		<apellidos>García Rubio</apellidos>
+		<edad>16</edad>
+		<ciudad>Barcelona</ciudad>				
+	</cliente>
+	<cliente>
+		
+		<nombre>Mario</nombre>
+		<apellidos>Pérez Moreno</apellidos>
+		<edad>36</edad>
+		<ciudad>Zaragoza</ciudad>				
+	</cliente>
+	<cliente>
+		
+		<nombre>Manuel</nombre>
+		<apellidos>Galán García</apellidos>
+		<edad>16</edad>
+		<ciudad>Valencia</ciudad>				
+	</cliente>
+</clientes>

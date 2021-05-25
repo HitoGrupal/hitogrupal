@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="salida.xsl"?>
+<biblioteca>
+	<lenguaje>
+			<nombre>PHP</nombre>
+			<año>1994</año>
+			<desc>PHP (acrónimo recursivo de PHP: Hypertext Preprocessor ) es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML.</desc>
+	</lenguaje>
+	<lenguaje>
+			<nombre>Java</nombre>
+			<año>1983</año>
+			<desc>Java es una tecnología que se usa para el desarrollo de aplicaciones que convierten a la Web en un elemento más interesante y útil. Java no es lo mismo que javascript, que se trata de una tecnología sencilla que se usa para crear páginas web y solamente se ejecuta en el explorador.</desc>
+	</lenguaje>
+	<lenguaje>
+			<nombre>JavaScript</nombre>
+			<año>1995</año>
+			<desc>JavaScript es el único lenguaje de programación que funciona en los navegadores de forma nativa (lenguaje interpretado sin necesidad de compilación). Por tanto se utiliza como complemento de HTML y CSS para crear páginas webs.</desc>
+	</lenguaje>
+	<lenguaje>
+			<nombre>Python</nombre>
+			<año>1989</año>
+			<desc>Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código.​ Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación funcional.</desc>
+	</lenguaje>
+	<lenguaje>
+			<nombre>TypeScript</nombre>
+			<año>2012</año>
+			<desc>TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases.</desc>
+	</lenguaje>
+
+</biblioteca>

@@ -1,0 +1,70 @@
+.nuestro-equipo{
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+
+
+.nuestro-equipo .contenedor--flex{
+	align-items: flex-start;
+}
+
+.nuestro-equipo__titulo{
+	font-family: "Pacifico", cursive;
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 1.8em;
+	margin-bottom: 10px;
+}
+
+.nuestro-equipo__img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin:auto;
+	margin-bottom: 20px;
+}
+
+.nuestro-equipo__texto{
+	padding: 10px;
+	text-align: justify;
+}
+
+
+@media screen and (min-width: 480px){
+	.nuestro-equipo__img{
+		width: 150px;
+		height: 150px;
+	}
+
+
+}
+
+@media screen and (min-width: 768px){
+	.nuestro-equipo__img{
+		width: 220px;
+		height: 220px;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	.nuestro-equipo__img{
+		width: 310px;
+		height: 310px;
+	}
+
+	.nuestro-equipo__titulo{
+		font-size: 2.1em;
+	}
+}
+
+@media screen and (min-width: 1600px){
+	.nuestro-equipo__img{
+		width: 420px;
+		height: 420px;
+	}
+
+}
+
+
