@@ -4,7 +4,7 @@
 	<xsl:template match="/">
 		<html>
 			<head>
-				<link rel="stylesheet" type="text/css" href="css/jesus1.css"/>
+				<link rel="stylesheet" type="text/css" href="jesus1.css"/>
 			</head>
 		<body>
 		<h1></h1>

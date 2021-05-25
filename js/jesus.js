@@ -1,3 +1,4 @@
+// Interfaz requerida para realizar peticiones Ajax al servidor.
 let ajax = new XMLHttpRequest();
 
 ajax.onreadystatechange = procesarRespuesta;
@@ -10,7 +11,7 @@ function procesarRespuesta () {
 			cambiarFondo('Principal');
 		}
 		else {
-			capa.innerHTML = "Error AJAX, no se puede obtener la informacio de los coches";
+			capa.innerHTML = "Error AJAX, no se puede obtener la informacion de los coches";
 		}
 	}
 }
@@ -23,23 +24,15 @@ function cargarCoches() {
 function crearTabla() {
     var i;
     var textJson = ajax.responseText;
-    var table="<tr><th>MARCA</th><th>MODELO</th><th>MATRICULA</th><th>PLAZAS</th><th>MOTOR</th><th>CABALLOS</th><th>CILINDROS</th><th>COLOR</th><th>PRECIO</th></tr>";
+    var table="<tr><th>MODELO</th><th>MATRICULA</th><th>PLAZAS</th><th>COLOR</th><th>PRECIO</th></tr>";
     var obj = JSON.parse(textJson);
     for (i = 0; i <obj.length; i++) { 
         table += "<tr><td>" +
-            obj[i].marca +
-            "</td><td>" +
-            obj[i].modelo +
+            obj[i].marca + "<br>" + obj[i].modelo +
             "</td><td>" +
             obj[i].matricula +
             "</td><td>" +
             obj[i].plazas +
-            "</td><td>" +
-            obj[i].motor.nombre_motor +
-            "</td><td>" +
-            obj[i].motor.caballos +
-            "</td><td>" +
-            obj[i].motor.cilindros +
             "</td><td>" +
             obj[i].color +
             "</td><td>" +
@@ -53,24 +46,16 @@ function crearTabla() {
 function filtrarTabla(marcas) {
     var i;
     var textJson = ajax.responseText;
-    var table="<tr><th>MARCA</th><th>MODELO</th><th>MATRICULA</th><th>PLAZAS</th><th>MOTOR</th><th>CABALLOS</th><th>CILINDROS</th><th>COLOR</th><th>PRECIO</th></tr>";
+    var table="<tr><th>MARCA</th><th>MATRICULA</th><th>PLAZAS</th><th>COLOR</th><th>PRECIO</th></tr>";
     var obj = JSON.parse(textJson);
     for (i = 0; i <obj.length; i++) { 
     	if (marcas == obj[i].marca) {
         table += "<tr><td>" +
-            obj[i].marca +
-            "</td><td>" +
-            obj[i].modelo +
+            obj[i].marca + "<br>" + obj[i].modelo +
             "</td><td>" +
             obj[i].matricula +
             "</td><td>" +
             obj[i].plazas +
-            "</td><td>" +
-            obj[i].motor.nombre_motor +
-            "</td><td>" +
-            obj[i].motor.caballos +
-            "</td><td>" +
-            obj[i].motor.cilindros +
             "</td><td>" +
             obj[i].color +
             "</td><td>" +
@@ -83,18 +68,18 @@ function filtrarTabla(marcas) {
 
 function cambiarFondo(modelo) {
 	if (modelo == 'Principal'){
-	document.body.style.backgroundImage = "url('imagenes/principal.jpg')";
+	document.body.style.backgroundImage = "url('../recursos_jesus/imagenes/principal.jpg')";
 	}else if (modelo == 'Mercedes') {
-	document.body.style.backgroundImage = "url('imagenes/mercedes.jpg')";
+	document.body.style.backgroundImage = "url('../recursos_jesus/imagenes/mercedes.jpg')";
 	}else if (modelo == 'Audi') {
-	document.body.style.backgroundImage = "url('imagenes/audi.png')";
+	document.body.style.backgroundImage = "url('../recursos_jesus/imagenes/audi.png')";
 	}else if (modelo == 'Ferrari') {
-	document.body.style.backgroundImage = "url('imagenes/ferrari.png')";
+	document.body.style.backgroundImage = "url('../recursos_jesus/imagenes/ferrari.png')";
 	}else if (modelo == 'Lamborghini') {
-	document.body.style.backgroundImage = "url('imagenes/lamborghini.png')";
+	document.body.style.backgroundImage = "url('../recursos_jesus/imagenes/lamborghini.png')";
 	}else if (modelo == 'BMW') {
-	document.body.style.backgroundImage = "url('imagenes/BMW.jpg')";
+	document.body.style.backgroundImage = "url('../recursos_jesus/imagenes/BMW.jpg')";
 	}else {
-	document.body.style.backgroundImage = "url('imagenes/bugatti.png')";
+	document.body.style.backgroundImage = "url('../recursos_jesus/imagenes/bugatti.png')";
 	}
 }

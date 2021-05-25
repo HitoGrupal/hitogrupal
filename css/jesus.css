@@ -76,6 +76,14 @@ div {
   width: 160px; height: 100px;
 }
 
+#enlace{
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
 table {
    width: 100%;
    border: 1px solid #000;
@@ -100,6 +108,7 @@ aside{
   grid-area: banner;
   text-align: center;
   background-image: url("../recursos_jesus/imagenes/fondo1.gif");
+  grid-template-columns: auto;
 }
 
 
