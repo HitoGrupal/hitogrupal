@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Pagina Victor</title>
-	<link rel="stylesheet" type="text/css" href="css/victor.css">
+	<meta charset="utf-8">
+	<title>Safari Park</title>
+	<script type="text/javascript" src="js/victor.js"></script>
+	<link href="css/victor.css" rel="Stylesheet">
 </head>
-<body>
-	<h1>Hola Mundo</h1>
+<body onload="loadSafari();" id="body">
+	<main>
+		<header id="header"><h1>Safari Park</h1></header>
+		<section id="subcabecera"><h2>Bienvenido al Safari Park</h2>
+			<nav>
+				<a href="victor.html">PRINCIPAL</a>
+				<a href="animalesvictor.xml">TABLA</a>
+			</nav>
+		</section>
+		<section id="contenido">
+			<h1 id="salida"></h1>
+			<h3>A 1.000 m de altitud y con una extensión de 1.500.000 m², SAFARI PARK es una reserva para animales salvajes de los cinco continentes. <br>
+				Es el único Safari en la Comunidad de Madrid que se puede visitar en coche visita en coche, como un auténtico Safari africano. <br>
+				El mejor modo para observar los animales en su hábitat natural o en su defecto en la semilibertad. En nuestro Safari podrás observar a numerosos animales en su día a día: sus hábitos, relaciones y en definitiva, sus comportamientos naturales. <br>
+				<ul>Antes de la visita es importante decidir:
+				<li>Visitas guiadas: visita en grupo a la que puede acceder cualquier participante con entradas. Dichas visitas son guiadas por un miembro de nuestro personal que irá en cabeza del grupo con un vehículo del safari. Los días con mayor afluencia encontrarán un cuidador en cada parada (esto no afecta a la visita). Es recomendable llegar con al menos media hora de antelación.</li>
+				<li>Visitas por libre: disfruta de los animales a tu aire (sólo se puede bajar del vehículo con la autorización del personal del Safari).</li>
+				<li>Tour Privado: un día especial para compartir con  familia y amigos. Al contratar un Tour Privado vivirá la experiencia más exclusiva del safari. Gracias a nuestro guía exclusivo para su grupo, la proximidad a muchos de los animales está garantizada.</li></ul>
+				Además SAFARI PARK es el primer safari que incluye atracciones. Podrás disfrutar de los animales a la vez que te diviertes con distintas aventuras y atracciones. Podrás sentir la adrenalina y la velocidad mientras disfrutas de las vistas, o refrescarte con los animales. También podrás sentir experiencias similares a las de volar como un pájaro.</h3>
+		</section>
+		<section id="tabla">
+			<p><b>El parque está dividido en 5 zonas:</b></p>
+			<table id="demo"></table>
+		</section>
+		<section id="formulario">
+			<form action="cuestionario.php" method="get" id="formulario"></form>
+		</section>
+		<section id="formulario3">
+			<form action="cuestionario.php" method="get" id="formulario3">
+			</form>
+		</section>
+		<img id="imagen" src="victor/zona0.jpg">
+		<footer>
+			<p><h4>Trabajo realizado por: Víctor Iván Pizarro Rubio</h4></p>
+		</footer>
+	</main>
+	
 </body>
 </html>
