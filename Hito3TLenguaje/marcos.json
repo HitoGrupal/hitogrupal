@@ -1,0 +1,45 @@
+{
+  "Liga": "Santander",
+  "Pais": "España",
+  "formado": 1900,
+  "clubs": [{
+      "nombre": "Atletico de Madrid",
+      "fundacion": 1903,
+      "entrenador": "Cholo Simeone",
+      "jugadores": [
+        "Joao Felix",
+        "Marcos Llorente",
+        "Luis Suarez"
+      ]
+    },
+    {
+      "nombre": "Real Madrid",
+      "fundacion": 1902,
+      "entrenador": "Zinedine Zidane",
+      "jugadores": [
+        "Benzema",
+        "Sergio Ramos",
+        "Mariano"
+      ]
+    },
+    {
+      "nombre": "Barcelona",
+      "fundacion": 1907,
+      "entrenador": "Koeman",
+      "jugadores": [
+        "Messi",
+        "Dembele",
+        "Jordi Alba"
+      ]
+    }, {
+      "nombre": "Betis",
+      "fundacion": 1911,
+      "entrenador": "Emilio Sanchez",
+      "jugadores": [
+        "Amador Rivas",
+        "Joaquin",
+        "Emerson"
+      ]
+    }
+  ]
+}

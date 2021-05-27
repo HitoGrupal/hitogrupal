@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="marcos.xsl"?>
+<root>
+   <Liga>Santander</Liga>
+   <Pais>España</Pais>
+   <clubs>
+      <element>
+         <entrenador>Cholo Simeone</entrenador>
+         <fundacion>1903</fundacion>
+         <jugadores>
+            <element><name>Joao Felix</name></element>
+            <element><name>Marcos Llorente</name></element>
+            <element><name>Luis Suarez</name></element>
+         </jugadores>
+         <nombre>Atletico de Madrid</nombre>
+      </element>
+      <element>
+         <entrenador>Zinedine Zidane</entrenador>
+         <fundacion>1902</fundacion>
+         <jugadores>
+            <element><name>Benzema</name></element>
+            <element><name>Sergio Ramos</name></element>
+            <element><name>Mariano</name></element>
+         </jugadores>
+         <nombre>Real Madrid</nombre>
+      </element>
+      <element>
+         <entrenador>Koeman</entrenador>
+         <fundacion>1907</fundacion>
+         <jugadores>
+            <element><name>Messi</name></element>
+            <element><name>Dembele</name></element>
+            <element><name>Jordi Alba</name></element>
+         </jugadores>
+         <nombre>Barcelona</nombre>
+      </element>
+      <element>
+         <entrenador>Emilio Sanchez</entrenador>
+         <fundacion>1911</fundacion>
+         <jugadores>
+            <element><name>Amador Rivas</name></element>
+            <element><name>Joaquin</name></element>
+            <element><name>Emerson</name></element>
+         </jugadores>
+         <nombre>Betis</nombre>
+      </element>
+   </clubs>
+   <formado>1900</formado>
+</root>

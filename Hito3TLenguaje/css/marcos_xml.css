@@ -1,0 +1,34 @@
+table {
+font-size: 12px;
+font-weight:bold;
+background-color: #fdfdf1;
+background-repeat: repeat-x;
+color: #990000;
+font-family: “Trebuchet MS”, Arial;
+text-align:left;
+}
+td {
+padding: 5px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #EBE9BC;
+border-bottom-color: #EBE9BC;
+}
+th {
+background-position: left top;
+font-size: 12px;
+font-weight:bold;
+background-color: #fdfdf1;
+background-repeat: repeat-x;
+color: #990000;
+font-family: “Trebuchet MS”, Arial;
+text-align:left;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #EBE9BC;
+border-bottom-color: #EBE9BC;
+}
