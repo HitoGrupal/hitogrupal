@@ -1,0 +1,48 @@
+body {
+	background-image: url(imagenes/principal.jpg);
+
+}
+
+table {
+
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:center;
+width: 100%;
+margin-top: 20px;
+
+
+}
+
+th {
+padding: 5px;
+font-size: 16px;
+background-color: #83aec0;
+background-image: url(imagenes/degradado.png);
+background-repeat: repeat-x;
+color: #FFFFFF;
+border-right-color: #558FA6;
+border-bottom-color: #558FA6;
+font-family: “Trebuchet MS”, Arial;
+text-transform: uppercase;
+}
+
+tr {
+background-color: lightblue;
+font-size: 12px;
+font-weight:bold;
+text-align: center;
+background-color: #e2ebef;
+background-repeat: repeat-x;
+color: #34484E;
+height: 50px;
+}
+
+th:hover {
+	color: gold;
+}
+
+tr:hover {
+	background-color: blue;
+	color: white;
+}

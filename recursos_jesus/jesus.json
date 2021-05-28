@@ -1,0 +1,266 @@
+[{	
+	"marca": "Mercedes",
+	"modelo": "AMG GT",
+	"matricula": "6483 JHR",
+	"plazas": 5,
+	"motor": {
+		"nombre_motor": "V8 M178 Biturbo",
+		"caballos": "435 - 730 CV", 
+		"cilindros": 8
+	},
+	"color": "Gris",
+	"precio": "135.700 €"
+}, 
+
+{	
+	"marca": "Mercedes",
+	"modelo": "Clase A",
+	"matricula": "6453 JHR",
+	"plazas": 5,
+	"motor": {
+		"nombre_motor": "A 220 4MATIC",
+		"caballos": "116 - 421 CV",
+		"cilindros": 6
+	},
+	"color": "Gris",
+	"precio": "28.800 €"
+}, 
+
+{	
+	"marca": "Mercedes",
+	"modelo": "Clase E",
+	"matricula": "3483 JHR",
+	"plazas": 5,
+	"motor": {
+		"nombre_motor": "300 E-24 3.4 AMG",
+		"caballos": "140 - 612 CV",
+		"cilindros": 6
+	},
+	"color": "Blanco",
+	"precio": "51.100 €"
+}, 
+
+{	
+	"marca": "Mercedes",
+	"modelo": "CLS",
+	"matricula": "6495 JHR",
+	"plazas": 5,
+	"motor": {
+		"nombre_motor": "3,0 L 6 motor en línea",
+		"caballos": "245 - 367 CV",
+		"cilindros": 6
+	},
+	"color": "Rojo",
+	"precio": "70.650 €"
+}, 
+
+{	
+	"marca": "Mercedes",
+	"modelo": "EQC",
+	"matricula": "6173 JHR",
+	"plazas": 5,
+	"motor": {
+		"nombre_motor": "A 220 4MATIC",
+		"caballos": "200 - 408 CV",
+		"cilindros": 4
+	},
+	"color": "Azul",
+	"precio": "77.425 €"
+}, 
+
+{	
+	"marca": "Ferrari",
+	"modelo": "488 GTB",
+	"matricula": "9542 LDR",
+	"plazas": 2,
+	"motor": {
+		"nombre_motor": "3,9 L V8",
+		"caballos": "670 CV",
+		"cilindros": 8
+	},
+	"color": "Azul",
+	"precio": "238.077 €"
+}, 
+
+{	
+	"marca": "Ferrari",
+	"modelo": "LaFerrari",
+	"matricula": "9254 JPD",
+	"plazas": 2,
+	"motor": {
+		"nombre_motor": "V12 de 6262cc",
+		"caballos": "800 CV",
+		"cilindros": 12
+	},
+	"color": "Rojo",
+	"precio": "1.300.000 €"
+}, 
+
+{	
+	"marca": "Ferrari",
+	"modelo": "F12 Berlinetta",
+	"matricula": "6285 HVB",
+	"plazas": 2,
+	"motor": {
+		"nombre_motor": "6 L V12",
+		"caballos": "740 - 780 CV",
+		"cilindros": 12
+	},
+	"color": "Rojo",
+	"precio": "311.217 €"
+}, 
+
+{	
+	"marca": "Audi",
+	"modelo": "R8",
+	"matricula": "6548 PSL",
+	"plazas": 2,
+	"motor": {
+		"nombre_motor": "5,2 L V10",
+		"caballos": "540 - 620 CV",
+		"cilindros": 10
+	},
+	"color": "Azul",
+	"precio": "168.020 €"
+}, 
+
+{	
+	"marca": "Audi",
+	"modelo": "Q8",
+	"matricula": "6532 HBP",
+	"plazas": 5,
+	"motor": {
+		"nombre_motor": "3,0 L V6",
+		"caballos": "134 - 600 CV",
+		"cilindros": 6
+	},
+	"color": "Amarillo",
+	"precio": "82.970 €"
+}, 
+
+{	
+	"marca": "Audi",
+	"modelo": "A8",
+	"matricula": "9245 LPZ",
+	"plazas": 5,
+	"motor": {
+		"nombre_motor": "3,0 L V6",
+		"caballos": "134 - 571 CV",
+		"cilindros": 6
+	},
+	"color": "Azul",
+	"precio": "106.970 €"
+}, 
+
+{	
+	"marca": "Lamborghini",
+	"modelo": "Aventador",
+	"matricula": "9853 LDP",
+	"plazas": 2,
+	"motor": {
+		"nombre_motor": "V12 atmosférico",
+		"caballos": "700 - 720 CV",
+		"cilindros": 12
+	},
+	"color": "Rojo",
+	"precio": "382.210 €"
+}, 
+
+{	
+	"marca": "Lamborghini",
+	"modelo": "Huracan",
+	"matricula": "2546 PFP",
+	"plazas": 2,
+	"motor": {
+		"nombre_motor": "V10 5,2",
+		"caballos": "640 CV",
+		"cilindros": 10
+	},
+	"color": "Azul",
+	"precio": "338.580 €"
+}, 
+
+{	
+	"marca": "Lamborghini",
+	"modelo": "Urus",
+	"matricula": "1989 KLP",
+	"plazas": 5,
+	"motor": {
+		"nombre_motor": "4.0 L Twin-turbo V8",
+		"caballos": "650 CV",
+		"cilindros": 8
+	},
+	"color": "Amarillo",
+	"precio": "171.429 €"
+}, 
+
+{	
+	"marca": "BMW",
+	"modelo": "Serie 8",
+	"matricula": "9245 JPL",
+	"plazas": 5,
+	"motor": {
+		"nombre_motor": "4,4 L V8",
+		"caballos": "333 - 625 CV",
+		"cilindros": 8
+	},
+	"color": "Azul",
+	"precio": "103.600 €"
+}, 
+
+{	
+	"marca": "BMW",
+	"modelo": "X7",
+	"matricula": "9247 HMN",
+	"plazas": 7,
+	"motor": {
+		"nombre_motor": "3,0 L V6",
+		"caballos": "110 - 530 CV",
+		"cilindros": 6
+	},
+	"color": "Gris",
+	"precio": "104.600 €"
+}, 
+
+{	
+	"marca": "BMW",
+	"modelo": "Z4",
+	"matricula": "1623 RTL",
+	"plazas": 2,
+	"motor": {
+		"nombre_motor": "3,0 L V6",
+		"caballos": "197 - 340 CV",
+		"cilindros": 6
+	},
+	"color": "Gris",
+	"precio": "51.300 €"
+}, 
+
+{	
+	"marca": "BMW",
+	"modelo": "Serie 7",
+	"matricula": "7625 FGT",
+	"plazas": 5,
+	"motor": {
+		"nombre_motor": "3,0 L V6",
+		"caballos": "110 - 530 CV",
+		"cilindros": 6
+	},
+	"color": "Blanco",
+	"precio": "101.400 €"
+},
+
+{	
+	"marca": "Bugatti",
+	"modelo": "Chiron",
+	"matricula": "6249 HTL",
+	"plazas": 2,
+	"motor": {
+		"nombre_motor": "W16 cuádruple Turbo",
+		"caballos": "1500 CV",
+		"cilindros": 16
+	},
+	"color": "Azul",
+	"precio": "2.496.409 €"
+}
+]

@@ -4,9 +4,74 @@
 	<meta charset="utf-8">
 	<title>Mi Web</title>
 	<link rel="stylesheet" type="text/css" href="css/pablom.css">
-	<script type="text/javascript" src="js/pablom.js"></script>
 </head>
-<body>
-	<h1>Web de Pablo Martín</h1>
+<body onload="loaddatos();">
+	<main>
+		<header>Dispositivos Tecnológicos</header>
+
+		<nav>
+			<a href="pablom.html" class="botones">Página Principal</a>
+			<a href="recursos_pablom/pablom.xml" class="botones">Principales Marcas</a>
+			<a href="recursos_pablom/dispositivos.html" class="botones">Principales Dispositivos</a>
+		</nav>
+
+		<section>
+			<strong><h1>¿Qué es un Dispositivo Móvil?</h1></strong>
+					<p>Un Dispositivo móvil, o también llamado como ordenador de bolsillo o ordenador de mano, es un tipo de computadora de tamaño pequeño,<br> con capacidades de procesamiento, con conexión a Internet, con memoria, diseñado específicamente para una función, pero que pueden llevar a cabo otras funciones más generales.
+					<br><br>
+					Actualmente, estos dispositivos han mejorado en todos los aspecto, ya sea en Cámara Fotográfica, Procesador e incluso la duración de la Batería</p>
+			<div class="grid-container">
+				<div>
+					<img  class="Doc1" id="img1" src="recursos_pablom/imagenespablom/dispositivomovil.jpg" 
+					onmouseover="cambioImg1();" onmouseout="revertirImg1();" ></div>
+				<div>
+					<img class="Doc1" id="img2" src="recursos_pablom/imagenespablom/movil.jpg"
+					onmouseover="cambioImg2();" onmouseout="revertirImg2();" >
+				</div>
+			</div>
+
+			<strong><h1>¿De qué está Compuesto un Dispositivo Movil?</h1></strong>
+				<p>Un Dispositivo Móvil esta compuesto principalmente de dos cosas el Software y el Hadware.
+				<br>A Continuación os procederé a esplicar que es cada cosa:</p>
+				<p>El Sofweare es elonjunto de programas y rutinas que permiten a la computadora realizar determinadas tareas.(Sistema Operativo y Capa de Personalización)</p>
+				<p>En cambio, el Hadware es el conjunto de elementos físicos o materiales que constituyen una computadora o un sistema informático.</p>
+			<p>En la actulidad, hay 3 Sistemas Operativos:<br></p>
+				<ul id="lista">
+					<li>Android</li>
+					<li>IOS</li>
+					<li>Harmony OS</li>
+				</ul>
+
+			<div class="grid-container">
+				<div>
+					<img class="Doc1" id="img3" src="recursos_pablom/imagenespablom/iosvsandroid.jpg"
+					onmouseover="cambioImg3();" onmouseout="revertirImg3();" >
+				</div>
+				<div>
+					<img class="Doc1"id="img4" src="recursos_pablom/imagenespablom/iosvsandroidvsharmonyos.jpg"
+					onmouseover="cambioImg4();" onmouseout="revertirImg4();" >
+				</div>
+			</div><br>
+			 <img id="foto_marcas" src="recursos_pablom/imagenespablom/marcas.jpg"/>
+
+		</section>
+
+		<aside class="grid-banner" id="banner1">
+			<a href="https://www.instagram.com/accounts/login/"><img id="imagenesBanner" src="recursos_pablom/imagenespablom/instagram.jpg"></a>
+			<a href="https://www.youtube.com/user/andro4all"><img id="imagenesBanner" src="recursos_pablom/imagenespablom/youtube.jpg"></a>
+			<a href="https://twitter.com/TopesdGama?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img id="imagenesBanner" src="recursos_pablom/imagenespablom/twiter.jpg"></a>
+			<a href="https://es-es.facebook.com/topesdgama"><img id="imagenesBanner" src="recursos_pablom/imagenespablom/facebook.jpg"></a>
+			<a href="https://www.twitch.tv/tdglives"><img id="imagenesBanner" src="recursos_pablom/imagenespablom/twitch.jpg"></a>
+		</aside>
+
+		<div id="banner2">
+			
+		</div>
+
+		<footer>
+			Web Realizada por Pablo Martín Sánchez-Seco
+		</footer>
+		<script type="text/javascript" src="js/pablom.js"></script>
+	</main>
 </body>
 </html>

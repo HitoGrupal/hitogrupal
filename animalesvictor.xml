@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transformavictor.xsl"?>
+<animales>
+	<Carnivoros>
+		<animal tipo="carnivoro">
+			<nombre>León</nombre>
+			<clase>Mamifero</clase>
+			<suborden>Felino</suborden>
+			<tamaño>
+				<altura>1.2m</altura>
+				<longitud>1.8m-2.1m</longitud>
+			</tamaño>
+			<peso>190kg</peso>
+		</animal>
+		<animal tipo="carnivoro">
+			<nombre>Lince</nombre>
+			<clase>Mamifero</clase>
+			<suborden>Felino</suborden>
+			<tamaño>
+				<altura>70cm</altura>
+				<longitud>80cm-120cm</longitud>
+			</tamaño>
+			<peso>10kg-20kg</peso>
+		</animal>
+		<animal tipo="carnivoro">
+			<nombre>Aguila</nombre>
+			<clase>Ave</clase>
+			<suborden>Rapaz</suborden>
+			<tamaño>
+				<altura>70cm-100cm</altura>
+				<longitud>100cm</longitud>
+			</tamaño>
+			<peso>4kg-7kg</peso>
+		</animal>
+		<animal tipo="carnivoro">
+			<nombre>Zorro</nombre>
+			<clase>Mamifero</clase>
+			<suborden>Caniforme</suborden>
+			<tamaño>
+				<altura>40cm-50cm</altura>
+				<longitud>45cm-90cm</longitud>
+			</tamaño>
+			<peso>3kg-14kg</peso>
+		</animal>
+	</Carnivoros>
+	<Herbivoros>
+		<animal tipo="herbivoro">
+			<nombre>Cebra</nombre>
+			<clase>Mamífero</clase>
+			<suborden>Equino</suborden>
+			<tamaño>
+				<altura>1.5m</altura>
+				<longitud>2.5m</longitud>
+			</tamaño>
+			<peso>300kg-400kg</peso>
+		</animal>
+		<animal tipo="herbivoro">
+			<nombre>Rinoceronte</nombre>
+			<clase>Mamifero</clase>
+			<suborden>Perisodáctilos</suborden>
+			<tamaño>
+				<altura>1.8m</altura>
+				<longitud>3.8m-4.1m</longitud>
+			</tamaño>
+			<peso>2000kg</peso>
+		</animal>
+		<animal tipo="herbivoro">
+			<nombre>Camello</nombre>
+			<clase>Mamifero</clase>
+			<suborden>Camélido</suborden>
+			<tamaño>
+				<altura>1.8m-2.1m</altura>
+				<longitud>3.4m</longitud>
+			</tamaño>
+			<peso>400kg-600kg</peso>
+		</animal>
+		<animal tipo="herbivoro">
+			<nombre>Loro</nombre>
+			<clase>Ave</clase>
+			<suborden>Psitaciformes</suborden>
+			<tamaño>
+				<altura>40cm</altura>
+				<longitud>50cm</longitud>
+			</tamaño>
+			<peso>600g-700g</peso>
+		</animal>
+	</Herbivoros>
+</animales>

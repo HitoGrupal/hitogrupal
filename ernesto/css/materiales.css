@@ -1,0 +1,35 @@
+body{
+  background: #7DD76B;
+}
+
+
+h1{
+  text-align: center;
+  color:#1200FF;
+  
+}
+
+table{
+  width: 50%;
+  margin-left:25%;
+  
+
+}
+
+th{
+  border:3px solid black;
+  font-size:bold;
+  background: #A3ED82;
+}
+table, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+
+  font-size: 20px;
+  font-weight: bold;
+  background: #E7FFDC;
+
+
+}
+

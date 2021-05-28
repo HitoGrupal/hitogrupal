@@ -1,0 +1,177 @@
+section{
+  grid-area: contenido;
+}
+
+footer{
+  grid-area: pie;
+}
+
+#menu1{
+  grid-area: menu1;
+}
+
+header{
+  grid-area: cabecera;
+}
+
+main{
+  display: grid;
+  grid-template-areas: 
+  'cabecera cabecera cabecera cabecera cabecera cabecera'
+  'menu1 menu1 menu1 menu1 menu1 menu1'
+  'contenido contenido contenido contenido contenido banner'
+  'pie pie pie pie pie pie';
+  grid-gap: 10px;
+  background-color: black;
+  padding: 10px;
+
+}
+
+main > *{
+  background-color: #A4DFF7;
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #A4DFF7;
+  padding: 10px;
+}
+
+footer, header{
+  text-align: center; 
+}
+
+#boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+
+  }
+
+#boton:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+div {
+   text-align: center;
+}
+
+#anuncio1{
+  width: 160px; height: 100px;
+}
+
+#anuncio2{
+  width: 160px; height: 100px;
+}
+
+#anuncio3{
+  width: 160px; height: 100px;
+}
+
+#enlace{
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+table {
+   width: 100%;
+   border: 1px solid #000;
+   border-collapse: collapse;
+}
+
+th, td {
+   width: 130px;
+   vertical-align: top;
+   border: 1px solid #000; 
+   text-align: center;
+}
+
+th{
+  background-color: #6BB4F8;
+}
+td{
+  background-color: #80D1F6;
+}
+
+aside{
+  grid-area: banner;
+  text-align: center;
+  background-image: url("../recursos_jesus/imagenes/fondo1.gif");
+  grid-template-columns: auto;
+}
+
+
+@media screen and (max-width: 1200px){
+  main{
+    display: grid;
+    grid-template-areas: 
+    'cabecera cabecera cabecera cabecera cabecera cabecera'
+    'menu1 menu1 menu1 menu1 menu1 menu1'
+    'contenido contenido contenido contenido contenido banner'
+    'contenido contenido contenido contenido contenido banner'
+    'pie pie pie pie pie pie';
+    grid-gap: 10px;
+    background-color: black;
+    padding: 10px;
+  }
+  .container-banner {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #A4DFF7;
+  padding: 10px;
+}
+}
+
+@media screen and (max-width: 500px){
+  main{
+    display: grid;
+    grid-template-areas: 
+    'cabecera cabecera cabecera cabecera cabecera cabecera'
+    'menu1 menu1 menu1 menu1 menu1 menu1'
+    'menu2 menu2 menu2 menu2 menu2 menu2'
+    'contenido contenido contenido contenido contenido contenido'
+    'banner banner banner banner banner banner'
+    'pie pie pie pie pie pie';
+    grid-gap: 10px;
+    background-color: black;
+    padding: 10px;
+  }
+    .container-banner {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #A4DFF7;
+  padding: 10px;
+}
+}
+
+@media print {
+  main{
+    display: grid;
+    grid-template-areas: 
+    'cabecera cabecera cabecera cabecera cabecera cabecera'
+    'menu1 menu1 menu1 menu1 menu1 menu1'
+    'banner banner banner banner banner banner'
+    'contenido contenido contenido contenido contenido contenido'
+    'pie pie pie pie pie pie';
+    grid-gap: 10px;
+    background-color: black;
+    padding: 10px;
+  }
+    .container-banner {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #A4DFF7;
+  padding: 10px;
+}
+}
