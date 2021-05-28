@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="andrea.xsl"?>
+
+<futbol1>
+	
+	<futbol entrenador="Atletico">
+		<nombre>Diego</nombre>
+		<apellidos>Simeone</apellidos>
+		<edad>51</edad>
+		<pais>Argentina</pais>
+	</futbol>
+	<futbol entrenador="Espanyol">
+		<nombre>Vicente</nombre>
+		<apellidos>Moreno</apellidos>
+		<edad>46</edad>
+		<pais>España</pais>
+	</futbol>
+	<futbol entrenador="Extremadura">
+		<nombre>Manuel</nombre>
+		<apellidos>Mosquera</apellidos>
+		<edad>52</edad>
+		<pais>España</pais>
+	</futbol>
+	<futbol entrenador="Mallorca">
+		<nombre>Luis</nombre>
+		<apellidos>Garcia</apellidos>
+		<edad>48</edad>
+		<pais>España</pais>
+	</futbol>
+	<futbol entrenador="Ucam Murcia">
+		<nombre>Miguel</nombre>
+		<apellidos>Rivera</apellidos>
+		<edad>60</edad>
+		<pais>España</pais>
+	</futbol>
+</futbol1>

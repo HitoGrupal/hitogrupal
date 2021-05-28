@@ -1,0 +1,173 @@
+[{
+		"cjugador": "atm9",
+		"nombre": "Luis ",
+		"apellido": "Suarez",
+		"equipo": "Atlético de Madrid",
+		"edad": 34,
+		"posicion":"Delantero",
+		"division": "Primera"
+
+	},
+	{
+		"cjugador": "atm7",
+		"nombre": "João",
+		"apellido": "Felix",
+		"equipo": "Atlético de Madrid",
+		"edad": 21,
+		"posicion":"Delantero",
+		"division": "Primera"
+	},
+	
+
+	{
+		"cjugador": "atm6",
+		"nombre": "Jorge",
+		"apellido": "Resurrección",
+		"equipo": "Atlético de Madrid",
+		"edad": 29,
+		"posicion":"Centrocampista",
+		"division": "Primera"
+	},
+	
+	{
+		"cjugador": "mall8",
+		"nombre": "Salva",
+		"apellido": "Sevilla",
+		"equipo": "Mallorca",
+		"edad": 37,
+		"posicion":"Centrocampista",
+		"division": "Segunda"
+	},
+	{
+		"cjugador": "mall1",
+		"nombre": "Manolo",
+		"apellido": "Reina",
+		"equipo": "Mallorca",
+		"edad": 36,
+		"posicion":"Portero",
+		"division": "Segunda"
+	},
+	{
+		"cjugador": "mall11",
+		"nombre": "Lago",
+		"apellido": "Junior",
+		"equipo": "Mallorca",
+		"edad": 30,
+		"posicion":"Delantero",
+		"division": "Segunda"
+	},
+	{
+		"cjugador": "ext10",
+		"nombre": "Enrique",
+		"apellido": "Marquez",
+		"equipo": "Extremadura",
+		"edad": 31,
+		"posicion":"Delantero",
+		"division": "Tercera"
+	},
+	{
+		"cjugador": "ext17",
+		"nombre": "Victor",
+		"apellido": "Pastrana",
+		"equipo": "Extremadura",
+		"edad": 24,
+		"posicion":"Centrocampista",
+		"division": "Tercera"
+	},
+	{
+		"cjugador": "ext5",
+		"nombre": "Francisco",
+		"apellido": "Cruz",
+		"equipo": "Extremadura",
+		"edad": 29,
+		"posicion":"Defensa",
+		"division": "Tercera"
+	},
+	{
+		"cjugador": "cad1",
+		"nombre": "Jeremías",
+		"apellido": "Ledesma",
+		"equipo": "Cadiz",
+		"edad": 28,
+		"posicion":"Portrero",
+		"division": "Primera"
+	},
+	{
+		"cjugador": "cad21",
+		"nombre": "Ruben",
+		"apellido": "Sobrino",
+		"equipo": "Cadiz",
+		"edad": 28,
+		"posicion":"Delantero",
+		"division": "Primera"
+	},
+	
+	{
+		"cjugador": "cad25",
+		"nombre": "Rafael",
+		"apellido": "Jimenez",
+		"equipo": "Cadiz",
+		"edad": 27,
+		"posicion":"Defensa",
+		"division": "Primera"
+	},
+
+	{
+		"cjugador": "esp7",
+		"nombre": "Wu",
+		"apellido": "lei",
+		"equipo": "Espanyol",
+		"edad": 29,
+		"posicion":"Delantero",
+		"division": "Segunda"
+	},
+
+	{
+		"cjugador": "esp22",
+		"nombre": "Matías",
+		"apellido": "Vargas",
+		"equipo": "Espanyol",
+		"edad": 24,
+		"posicion":"Delantero",
+		"division": "Segunda"
+	},
+
+	{
+		"cjugador": "esp15",
+		"nombre": "David",
+		"apellido": "Lopez",
+		"equipo": "Espanyol",
+		"edad": 31,
+		"posicion":"Defensa",
+		"division": "Segunda"
+	},
+
+	{
+		"cjugador": "ucm9",
+		"nombre": "Isaak",
+		"apellido": "Aketxe",
+		"equipo": "Ucam Murcia",
+		"edad": 31,
+		"posicion":"Centrocampista",
+		"division": "Tercera"
+	},
+
+	{
+		"cjugador": "ucm1",
+		"nombre": "Biel",
+		"apellido": "Rivas",
+		"equipo": "Ucam Murcia",
+		"edad": 35,
+		"posicion":"Portero",
+		"division": "Tercera"
+	},
+
+	{
+		"cjugador": "ucm14",
+		"nombre": "Pedro",
+		"apellido": "Benito",
+		"equipo": "Ucam Murcia",
+		"edad": 21,
+		"posicion":"Delantero",
+		"division": "Tercera"
+	}]

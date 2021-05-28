@@ -2,10 +2,40 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<title>Hito grupal del tercer trimestre</title>
+	<script type="text/javascript" src="js/andrea.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/andrea.css">
-	<title>Hito grupal</title>
 </head>
-<body>
-<h1>Hola, bienvenidos a nuestra página.</h1>
+<body onload="loadDatos();">
+<h1 id="salida"></h1>
+
+<main>
+	<header><a href="https://www.laliga.com/" style="color:#ffffff; font-size: 40px; font-weight:bold; ">LA LIGA</a></header>
+	<nav id="menu1"><div id="bonotes">
+<input type="button" value="Todos los futbolistas" onclick="generarTabla()" id="Boton1">
+<input type="button" value="Jugadores de 1ª" onclick="generarTabla2('Primera')" id="Boton1">
+<input type="button" value="Jugadores de 2ª" onclick="generarTabla3('Segunda')" id="Boton1">
+<input type="button" value="Jugadores de 3ª" onclick="generarTabla4('Tercera')" id="Boton1">
+<a href="recursos_andrea/andrea.xml" id="Boton1">Entrenadores</a>
+
+</div></nav>
+	
+	<section>
+<table id="demo"></table>
+	</section>
+
+	<aside>
+		<h2>Visita nuestras páginas oficiales</h2>
+		<a href="https://www.atleticodemadrid.com/"><img id="imagen" src="recursos_andrea/andrea/atleti.jpg" ></a> <br>
+		<a href="https://www.cadizcf.com/"><img id="imagen" src="recursos_andrea/andrea/cadiz.png"></a> <br>
+		<a href="https://www.rcdespanyol.com/"><img id="imagen" src="recursos_andrea/andrea/espanyol.png"> </a><br>
+		<a href="https://www.extremaduraud.com/"><img id="imagen" src="recursos_andrea/andrea/extremadura.png"></a> <br>
+		<a href="https://www.rcdmallorca.es/"><img id="imagen" src="recursos_andrea/andrea/mallorca.png"> </a><br>
+		<a href="http://www.ucamdeportes.com/ucamcf/"><img id="imagen" src="recursos_andrea/andrea/ucam.png"> </a><br>
+
+	</aside>
+	
+	<footer>Hecho por: Andrea Pérez</footer>
+</main>
 </body>
 </html>
