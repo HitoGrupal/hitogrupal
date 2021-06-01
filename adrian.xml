@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="adrian.xsl"?>
+
+
+<peliculas>
+  <pelicula>
+    <nombre>Godzilla vs Kong</nombre>
+    <hora>17:00</hora>
+    <precio>15€</precio>  
+  </pelicula>
+   <pelicula>
+    <nombre>Fast and furious 8</nombre>
+    <hora>18:00</hora>
+    <precio>15€</precio>  
+  </pelicula>
+   <pelicula>
+    <nombre>El hobbit</nombre>
+    <hora>21:00</hora>
+    <precio>5€</precio>
+  </pelicula>
+   <pelicula>
+    <nombre>Mortal kombat</nombre>
+    <hora>22:00</hora>
+    <precio>20€</precio>  
+  </pelicula>
+   <pelicula>
+    <nombre>Tom y Jerry</nombre>
+    <hora>18:00</hora> 
+    <precio>10€</precio> 
+  </pelicula>
+   <pelicula>
+    <nombre>Wonder woman</nombre>
+    <hora>21:30</hora> 
+    <precio>12€</precio> 
+  </pelicula>
+
+</peliculas>
+
