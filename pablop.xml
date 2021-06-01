@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="pablop.xsl"?>
+	
+<juegos>
+	<juego>
+		<titulo>Brawl Stars</titulo>
+		<fecha>15 de junio de 2017</fecha>
+		<plataformas>Android, iOS</plataformas>
+		<desarrolladores>Supercell</desarrolladores>
+		
+	</juego>
+	<juego>
+		<titulo>League of Legends</titulo>
+		<fecha>27 de octubre de 2009</fecha>
+		<plataformas>Microsoft Windows, macOS, Mac OS</plataformas>
+		<desarrolladores>Riot Games</desarrolladores>
+		
+	</juego>
+	<juego>
+		<titulo>Ark: Survival Evolved</titulo>
+		<fecha>2 de junio de 2015</fecha>
+		<plataformas>PlayStation 4, Xbox One, Nintendo Switch, ...</plataformas>
+		<desarrolladores> Studio Wildcard, Instinct Games, Virtual Basement, Efecto Studios, ...</desarrolladores>
+		
+	</juego>
+	<juego>
+		<titulo>Rocket League</titulo>
+		<fecha>7 de julio de 2015</fecha>
+		<plataformas>PlayStation 4, Xbox One, Nintendo Switch, ..</plataformas>
+		<desarrolladores>Psyonix, Panic Button Games</desarrolladores>
+		
+	</juego>
+
+</juegos>
