@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Superhéroes</title>
+	<script type="text/javascript" src="js/andres.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/andres.css">
+</head>
+	<body onload="loadSuper();">
+	<main>
+
+		<header>SuperHéroes</header>
+		<table id="demo"></table>
+<br>
+		<table id="demo2"></table>
+		
+		<div id="tablaEscuadron">
+		<button onclick="tablaEscuadrones()" > Mostrar Escuadrones</button>
+		<button onclick="tablaMiembros()" > Mostrar Miembros</button>
+		<a href="andres2.html">Mostrar secretos </a>
+		<a href="andres.xml">Mostrar peliculas </a>
+<br>
+			<br>
+		<label >Selecciona el superheroe</label>
+  			<select onchange="superpoderes()" id="superheroe">
+  				<option id="miembro00" value="miembro00.jpg">Iron man</option>
+  				<option id="miembro01" value="miembro01.jpg">Capitan America</option>
+  				<option id="miembro01" value="miembro02.jpg">Thor</option>
+  				<option id="miembro10" value="miembro10.jpg">Superman</option>
+  				<option id="miembro11" value="miembro11.jpg">Batman</option>  
+			</select>
+<br> 
+<br>
+		
+		<table id="tablaEscuadrones"></table>
+		</div>
+	</main>	
+	</body>
+</html>

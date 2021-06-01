@@ -1,0 +1,51 @@
+#cargaCatalogo{
+  border-radius: 5px;
+  background:#D1D1D1;
+  font-size: 20px;
+  font-weight: bold;  
+  display:inline-block;
+  padding:5px;
+  text-decoration:none;
+  transition: all 0.10s ease-in-out;
+  position:relative;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+
+#cargaCatalogo:active{
+  top:2px;
+  
+}
+#cargaCatalogo:hover{
+
+  background-color: #C8C8C8;
+}
+
+
+table{
+  margin-top:20px;
+  width: 50%;
+  margin-left:25%;
+  
+
+}
+
+th{
+  border:3px solid black;
+  font-size:bold;
+  background: #96DF75;
+  color: #000000;
+}
+
+table, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  background: #CDFFB6;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+
+
+}

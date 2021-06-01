@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="andres.xsl"?>
+<cine>
+    <pelicula categoria="superheroes">
+        <titulo>Vengadores 1</titulo>
+        <director>Joss Whedon</director>
+        <estreno>2012</estreno>
+        <reparto>Robert Downy</reparto>
+        <reparto>Mark Ruffalo</reparto>
+        <reparto>Chris Evans</reparto>
+    </pelicula>
+    <pelicula categoria="superheroes">
+        <titulo>Thor Ragnarok</titulo>
+        <director>Taika Waititi</director>
+        <estreno>2017</estreno>
+        <reparto>Chris Hemsworth</reparto>
+        <reparto>Cate Blanchett</reparto>
+        <reparto>Tom Hiddleston</reparto>
+    </pelicula>
+    <pelicula categoria="superheroes">
+        <titulo>Superman</titulo>
+        <director>Bryan Singer</director>
+        <estreno>2006</estreno>
+        <reparto>Brandon Routh</reparto>
+        <reparto>Kate Bosworth</reparto>
+        <reparto>Kevin Spacey</reparto>
+    </pelicula>
+    <pelicula categoria="superheroes">
+        <titulo>Batman El caballero oscuro</titulo>
+        <director>Christopher Nolan</director>
+        <estreno>2010</estreno>
+        <reparto>Christian Bale</reparto>
+        <reparto>Michael Caine</reparto>
+        <reparto>Heath Ledger</reparto>
+    </pelicula>
+</cine>

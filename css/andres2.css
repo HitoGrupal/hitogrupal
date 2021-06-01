@@ -1,0 +1,52 @@
+header{
+ 	grid-area: cabecera;
+ 	text-align: center; 
+ 	color: #33DD9A;
+	font-size: 80px;
+	background-color: #4593B2;
+	
+ }
+ 
+
+ #demo  {
+ 	grid-area: demo1;
+ }
+
+ #demo1 {
+ 	grid-area: demo2;
+ }
+
+ #tablaEscuadron {
+	grid-area: tablaEscuadrones;
+	text-align: center;
+	padding-top: 20px;
+ }
+
+
+main {
+ 	display: grid;
+ 	grid-template-areas:
+ 	'cabecera cabecera cabecera cabecera cabecera cabecera'
+    'demo1 demo1 demo1 demo2 demo2 demo2'
+    'tablaEscuadrones tablaEscuadrones tablaEscuadrones tablaEscuadrones tablaEscuadrones tablaEscuadrones'
+    
+  
+ }
+
+ main > * {
+  
+}
+
+@media screen and (max-width: 750px){
+
+	main {
+ 	display: grid;
+ 	grid-template-areas:
+ 	'cabecera cabecera cabecera cabecera cabecera cabecera'
+    'demo1 demo1 demo1 demo1 demo1 demo1'
+    'demo2 demo2 demo2 demo2 demo2 demo2'
+    'tablaEscuadrones tablaEscuadrones tablaEscuadrones tablaEscuadrones tablaEscuadrones tablaEscuadrones'
+    
+  
+}
+}

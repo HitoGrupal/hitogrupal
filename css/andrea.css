@@ -1,4 +1,137 @@
+header{
+	grid-area: cabecera;
+	text-align: center;
+	background-image: url("../recursos_andrea/andrea/fondoc.jpg");
+	
 
-body{
-	background-color: #FED8E5;
 }
+
+
+#menu1{
+	grid-area: menu1;
+	text-align: center;
+	background-color:#1B5B1E;
+ }
+ #botones{
+ 	margin-left: 30px;
+ }
+section{
+	grid-area: contenido;
+	background-image: url("../recursos_andrea/andrea/fondo.jpg");
+	background-repeat:no-repeat;
+	background-size:120% 100%; 
+ }
+aside{
+	grid-area: banner;
+	text-align:center;
+	background-image:url("../recursos_andrea/andrea/fondoc.jpg");
+	color: white;
+
+
+ }
+ #imagen{
+ 	width:100px;
+ 	height:100px;
+ 	margin-top: 50px;
+ }
+ table {     
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    
+    width: 80%; 
+    height: 60%;
+    text-align: center;    
+    border-collapse: collapse; 
+   
+}
+
+th {     
+	font-size: 20px;    
+	font-weight: bold;         
+    border-bottom: 1px solid #fff; 
+    color: #000000; 
+
+}
+
+td {    
+	font-size: 15px;
+	padding: 15px;    
+	background: #ADDCB0;    
+	border-bottom: 1px solid #fff;
+    color: #000000; 
+    opacity: 0.7;   
+    border-top: 1px solid transparent; 
+}
+
+tr:hover td { 
+	background: #C4F5C5; 
+	color: #000000; 
+}
+#Boton1{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+  }
+ #Boton1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+ 
+
+footer{
+	grid-area: pie;
+	background-color:#1B5B1E;
+	text-align: center;
+	color:white;
+	font-weight: bold;
+ }
+main{
+display: grid;
+grid-template-areas: 
+	'cabecera cabecera cabecera cabecera cabecera cabecera'
+	'menu1 menu1 menu1 menu1 menu1 menu1'
+	'contenido contenido contenido contenido contenido banner'
+	'pie pie pie pie pie pie';
+grid-gap: 10px;
+background-color: #183118;
+padding: 10px;
+ }
+ main > *{
+ 	
+ 	padding: 10px;
+ }
+ @media screen and (max-width: 1000px){
+ 	main{
+	display: grid;
+	grid-template-areas: 
+		'cabecera cabecera cabecera cabecera cabecera cabecera'
+		'menu1 menu1 menu1 menu1 menu1 menu1'
+		'contenido contenido contenido contenido contenido contenido '
+		'contenido contenido contenido contenido contenido banner'
+		'pie pie pie pie pie pie';
+	grid-gap: 7px;
+	padding: 7px;
+ }
+ }
+ @media screen and (max-width: 700px){
+ 	main{
+	display: grid;
+	grid-template-areas: 
+		'cabecera cabecera cabecera cabecera cabecera cabecera'
+		'menu1 menu1 menu1 menu1 menu1 menu1'
+		'contenido contenido contenido contenido contenido contenido'
+		'contenido contenido contenido contenido contenido contenido'
+		'banner banner banner banner banner banner' 
+		'pie pie pie pie pie pie';
+	grid-gap: 7px;
+	padding: 7px;
+ }
+ }

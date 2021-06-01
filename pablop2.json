@@ -1,0 +1,35 @@
+[{	
+	"titulo": "London 1961",
+	"fecha": "1999",
+	"plataformas": "Microsoft Windows, DOS",
+	"desarrolladores": "Rockstar Toronto, Rockstar Lincoln, Runecraft"
+	
+	
+},
+
+{	
+	"titulo": "Vice City",
+	"fecha": "27 de octubre de 2002",
+	"plataformas": "Android, Microsoft Windows, ...",
+	"desarrolladores": "Rockstar North, War Drum Studios, Rockstar Vienna"
+	
+	
+},
+
+{	
+	"titulo": "San Andreas",
+	"fecha": "26 de octubre de 2004",
+	"plataformas": "Android, PlayStation 2, PlayStation 3, ...",
+	"desarrolladores": "Rockstar Games, Rockstar North, War Drum Studios"
+	
+	
+},
+
+ {	
+	"titulo": "Liberty City Stories",
+	"fecha": "24 de octubre de 2005",
+	"plataformas": "PlayStation Portable, Android, PlayStation 2, ..",
+	"desarrolladores": "Rockstar Games, Rockstar North, War Drum Studios"
+	
+	
+}]

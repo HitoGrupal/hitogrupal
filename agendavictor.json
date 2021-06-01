@@ -1,0 +1,81 @@
+	[{	
+	"Mapa":"0.jpg",
+	"Zona": "Zona A",
+	"Animales": ["Leon",
+				"Cebra",
+				"Tigre",
+				"Jirafa",
+				"Impala"],
+	"Atracciones": {
+		"Infantil": "Madagascar Park",
+		"Acuática":"Water Cebra",
+		"Atrevida":"Lion Experience",
+		"Familiar":"Jiraf"
+	},
+	"Coche": true,
+	"Precio":15
+},{	
+	"Mapa":"1.jpg",
+	"Zona": "Zona B",
+	"Animales": ["Leopardo",
+				"Lince",
+				"Guepardo",
+				"Impala",
+				"Antilope acuatico"],
+	"Atracciones": {
+		"Infantil": "Encuentra el Impala",
+		"Acuática":"Los troncos locos",
+		"Atrevida":"Fast Leopard",
+		"Familiar":"Waterbucks"
+	},
+	"Coche": true,
+	"Precio":10
+},{	
+	"Mapa":"2.jpg",
+	"Zona": "Zona C",
+	"Animales": ["Elefante",
+				"Rinoceronte",
+				"Bufalo",
+				"Hipopotamo",
+				"Cocodrilo"],
+	"Atracciones": {
+		"Infantil": "HipoCity",
+		"Acuática":"Cocodrolopolis ",
+		"Atrevida":"Rino",
+		"Familiar":"Rancho del Bufalo Bill"
+	},
+	"Coche": true,
+	"Precio":20
+},{	
+	"Mapa":"3.jpg",
+	"Zona": "Zona D",
+	"Animales": ["Águila",
+				"Buitre",
+				"Tocos de pico amarillo",
+				"Jabirúes",
+				"Marabúes"],
+	"Atracciones": {
+		"Infantil": "The King",
+		"Acuática":"Toc toc",
+		"Atrevida":"Sky limit",
+		"Familiar":"Farmer"
+	},
+	"Coche": false,
+	"Precio":18
+},{	
+	"Mapa":"4.jpg",
+	"Zona": "Zona E",
+	"Animales": ["Licaones",
+				"Hienas",
+				"Antilopes",
+				"Chacales",
+				"Zorros"],
+	"Atracciones": {
+		"Infantil": "Antilopolis",
+		"Acuática":"Chaca chaca",
+		"Atrevida":"Fast Run",
+		"Familiar":"Feed the animal"
+	},
+	"Coche": true,
+	"Precio":17
+}]

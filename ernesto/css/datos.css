@@ -1,0 +1,30 @@
+#boton{
+  border-radius: 5px;
+  background:#D1D1D1;
+  font-size: 20px;
+  font-weight: bold;  
+  display:inline-block;
+  padding:5px;
+  text-decoration:none;
+  transition: all 0.10s ease-in-out;
+  position:relative;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+
+#boton:active{
+  top:2px;
+  
+}
+#boton:hover{
+
+  background-color: #C8C8C8;
+}
+
+#info{
+  margin-top: 20px;
+  font-size: 10px bold;
+  font-family: sans-serif;
+}
+
