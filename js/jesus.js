@@ -17,7 +17,7 @@ function procesarRespuesta () {
 }
 
 function cargarCoches() {
-	ajax.open("GET", "../recursos_jesus/jesus.json");
+	ajax.open("GET", "recursos_jesus/jesus.json");
     ajax.send();
 }
 
@@ -68,18 +68,18 @@ function filtrarTabla(marcas) {
 
 function cambiarFondo(modelo) {
 	if (modelo == 'Principal'){
-	document.body.style.backgroundImage = "url('../recursos_jesus/imagenes/principal.jpg')";
+	document.body.style.backgroundImage = "url('recursos_jesus/imagenes/principal.jpg')";
 	}else if (modelo == 'Mercedes') {
-	document.body.style.backgroundImage = "url('../recursos_jesus/imagenes/mercedes.jpg')";
+	document.body.style.backgroundImage = "url('recursos_jesus/imagenes/mercedes.jpg')";
 	}else if (modelo == 'Audi') {
-	document.body.style.backgroundImage = "url('../recursos_jesus/imagenes/audi.png')";
+	document.body.style.backgroundImage = "url('recursos_jesus/imagenes/audi.png')";
 	}else if (modelo == 'Ferrari') {
-	document.body.style.backgroundImage = "url('../recursos_jesus/imagenes/ferrari.png')";
+	document.body.style.backgroundImage = "url('recursos_jesus/imagenes/ferrari.png')";
 	}else if (modelo == 'Lamborghini') {
-	document.body.style.backgroundImage = "url('../recursos_jesus/imagenes/lamborghini.png')";
+	document.body.style.backgroundImage = "url('recursos_jesus/imagenes/lamborghini.png')";
 	}else if (modelo == 'BMW') {
-	document.body.style.backgroundImage = "url('../recursos_jesus/imagenes/BMW.jpg')";
+	document.body.style.backgroundImage = "url('recursos_jesus/imagenes/BMW.jpg')";
 	}else {
-	document.body.style.backgroundImage = "url('../recursos_jesus/imagenes/bugatti.png')";
+	document.body.style.backgroundImage = "url('recursos_jesus/imagenes/bugatti.png')";
 	}
 }

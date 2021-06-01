@@ -34,8 +34,8 @@ article {
   background-color: white;
   padding: 1%;
   align-content: center;
+  text-align: center;
 }
-
 
 footer{
     grid-area: footer;
@@ -85,6 +85,26 @@ footer{
 
 .header-right {
   float: right;
+}
+
+table {
+   width: 100%;
+   border: 3px solid ;
+   color: dodgerblue;
+   
+}
+
+td, th {
+   background: white;
+   color: dodgerblue;
+   text-align: center;
+   border: 1px solid dodgerblue;
+   vertical-align: top;
+   border-collapse: collapse;
+}
+td{
+   color: black;
+   text-align: center;
 }
 
 

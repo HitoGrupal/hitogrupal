@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl" ?>
+<clase>
+	<alumno>
+		<nombre>Adrián</nombre>
+		<apellido>Plaza</apellido>
+		<comentario>"El cine, nuestra pasión"</comentario>
+	</alumno>
+	<alumno>
+		<nombre>Andrea</nombre>
+		<apellido>Pérez</apellido>
+		<comentario>"Y ganar, y ganar, y ganar, y volver a ganar, y ganar, y ganar, y ganar, y volver a ganar. Eso es el fútbol señores"</comentario>
+	</alumno>
+	<alumno>
+		<nombre>Andrés</nombre>
+		<apellido>Servant</apellido>
+		<comentario>"Una gran web requiere una gran responsabilidad"</comentario>
+	</alumno>
+	<alumno>
+		<nombre>Celia</nombre>
+		<apellido>Torrecilla</apellido>
+		<comentario>"Que viva el Getafe"</comentario>
+	</alumno>
+	<alumno>
+		<nombre>David</nombre>
+		<apellido>Sánchez</apellido>
+		<comentario>"Palestina pertenece a los árabes, como Inglaterra pertenece a los ingleses o Francia pertenece a los franceses"</comentario>
+	</alumno>
+	<alumno>
+		<nombre>Ernesto</nombre>
+		<apellido>Benito</apellido>
+		<comentario>"AventuraExtrema es una empresa dedicada a los deportes de aventura y especializada en Turismo Activo y la Naturaleza"</comentario>
+	</alumno>
+	<alumno>
+		<nombre>Jesús</nombre>
+		<apellido>Manzanero</apellido>
+		<comentario>"Coches llenos de vida"</comentario>
+	</alumno>
+	<alumno>
+		<nombre>Joseda</nombre>
+		<apellido>Martínez</apellido>
+		<comentario>"Cuanto más difícil es la victoria, mayor es la felicidad de ganar"</comentario>
+	</alumno>
+	<alumno>
+		<nombre>Manuel</nombre>
+		<apellido>Morales</apellido>
+		<comentario>"En esta cocina pasan cosas mágicas"</comentario>
+	</alumno><alumno>
+		<nombre>Marcos</nombre>
+		<apellido>Moreno</apellido>
+		<comentario>"Me ha gustado hacer el json"</comentario>
+	</alumno>
+	<alumno>
+		<nombre>Pablo</nombre>
+		<apellido>Martín</apellido>
+		<comentario>"Los cambios traen innovación, y la innovación lleva al progreso"</comentario>
+	</alumno>
+	<alumno>
+		<nombre>Pablo</nombre>
+		<apellido>Palomino</apellido>
+		<comentario>"No puedes deshacer lo que ya has hecho, pero sí puedes enfrentarlo"</comentario>
+	</alumno>
+	<alumno>
+		<nombre>Víctor</nombre>
+		<apellido>Pizarro</apellido>
+		<comentario>"El miedo es como un animal salvaje: persigue a todos pero mata al más débil"</comentario>
+	</alumno>
+	
+</clase>

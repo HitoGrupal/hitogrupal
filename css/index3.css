@@ -5,6 +5,14 @@ h2{
   font-size:200%;
 }
 
+h3 {
+    top:5%;
+    left:7%;
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+}
+
 a {
     text-decoration: none;
     font-size: larger;
@@ -17,25 +25,19 @@ header{
     font-family:Century Gothic;
 }
 
-
-section {
-  grid-area: menu;
-  font-family: 'Palatino Linotype';
-  color: black;
-  font-size: 150%;
-  text-align: left;
-  margin-right: 150px;
-  margin-left: 150px;
-
-}
-
 article {
+  grid-area: menu;
   margin-top: 30px;
   background-color: white;
   padding: 1%;
   align-content: center;
+  font-family: 'Palatino Linotype';
+  color: black;
+  text-align: left;
+  margin-right: 150px;
+  margin-left: 150px;
+   font-size: 30px;
 }
-
 
 footer{
     grid-area: footer;
@@ -87,6 +89,26 @@ footer{
   float: right;
 }
 
+table {
+   width: 100%;
+   border: 3px solid ;
+   color: dodgerblue;
+   
+}
+
+td, th {
+   background: white;
+   color: dodgerblue;
+   text-align: center;
+   border: 1px solid dodgerblue;
+   vertical-align: top;
+   border-collapse: collapse;
+}
+td{
+   color: black;
+   text-align: center;
+}
+
 
 @media screen and (max-width: 500px) {
   .header a {
@@ -100,7 +122,6 @@ footer{
 }
 
 
-
 main {
     display: grid;
     grid-template-areas:
@@ -108,4 +129,5 @@ main {
    'menu menu menu menu menu menu'
    'footer footer footer footer footer footer'
   ;
+
 }
