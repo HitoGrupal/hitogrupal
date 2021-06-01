@@ -1,0 +1,71 @@
+ [
+   {
+  "escuadron": "Marvel",
+  "formacion": 2012,
+  "base": "Torre Stark",
+  "activo": true,
+  "miembros":
+    [{
+      "nombre": "Iron man",
+      "edad": 45,
+      "identidad": "Tony Stark",
+      "poderes": [
+          "superarmadura",
+          "ingeniero multimillonario",
+          "gran sarcasmo"]
+      
+    },{
+
+
+      "nombre": "Capitan America",
+      "edad": 147,
+      "identidad": "Rogers",
+      "poderes": [
+          "superfuerza",
+          "liderazgo"]
+      
+    },{
+
+      "nombre": "Thor",
+      "edad": null,
+      "identidad": "Thor",
+      "poderes": [
+          "es un dios",
+          "martillo que lanza rayos"]
+    }
+
+    ]
+  },{
+
+  "escuadron": "DC",
+  "formacion": 2016,
+  "base": "BatCueva",
+  "activo": false,
+  "miembros": [
+{
+      "nombre": "Superman",
+      "edad": 40,
+      "identidad": "Clark Ken",
+      "poderes": [
+          "vuela",
+          "ultra velocidad",
+          "superfuerza",
+          "Rayos por los ojos"
+    ]
+},{
+      "nombre": "Batman",
+      "edad": 54,
+      "identidad": "smais",
+      "poderes": [
+          "Rico",
+          "Inteligente",
+          "Influencias"
+  ]
+}
+    ]
+
+}
+]
+
+
+
