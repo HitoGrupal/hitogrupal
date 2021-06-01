@@ -1,0 +1,37 @@
+[{
+		"nombre": "Fast and Furious 8",
+		"año": "2017",
+		"clasificacion":"+18",
+		"genero":"Accion"
+	},
+	{
+		"nombre": "Gozilla vs Kong",
+		"año": "2021",
+		"clasificacion":"+18",
+		"genero":"Accion"
+	},{
+		"nombre": "El hobbit",
+		"año": "2001",
+		"clasificacion":"+16",
+		"genero":"Fantasia"
+	},
+	{
+		"nombre": "Mortal Kombat",
+		"año": "2021",
+		"clasificacion":"+18",
+		"genero":"Accion"
+	},
+	{
+		"nombre": "Tom & Jerry",
+		"año": "2021",
+		"clasificacion":"+3",
+		"genero":"Animación"
+	},
+	{
+		"nombre": "Wonder Woman",
+		"año": "2020",
+		"clasificacion":"+15",
+		"genero":"Accion"
+	}
+	
+]
