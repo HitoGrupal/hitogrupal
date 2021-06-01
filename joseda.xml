@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/joseda.css" ?>
+<?xml-stylesheet type="text/xsl" href="joseda.xsl"?>
+<trofeos>
+  <trofeo>
+    <premier>3 trofeos</premier>
+    
+    <fa>1 trofeo</fa>
+  <shield>2 trofeos</shield>
+   <league>2 trofeos</league>
+    <champions>1 trofeo</champions>
+     <world>1 trofeo</world>
+  
+  
+  </trofeo>
+</trofeos>
