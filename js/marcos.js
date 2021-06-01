@@ -17,7 +17,7 @@ function ajax_get(url, callback) {
     xmlhttp.send();
 }
  
-ajax_get('http://localhost/Hito3TLenguaje/marcos.json', function(data) {
+ajax_get('marcos.json', function(data) {
     console.log(data['Liga'])
     document.getElementById("titulo").innerHTML = data["Liga"];
     let contenidoDatos = ""
